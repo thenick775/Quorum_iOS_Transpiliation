@@ -18,7 +18,8 @@ All build commands were encapsulated in the RoboVM gradle plugin, allowing acces
         ./gradlew ios:launchIPhoneSimulator --info --stacktrace
 ````
 ````
-    For a connected physical device run:
+    For a connected physical device run the following command,
+    note this requires a separate xcode project for code signing, described further in the WIKI:
         ./gradlew ios:launchIOSDevice --info --stacktrace  
 ````
 
@@ -34,12 +35,13 @@ The gradle wrapper should automatically download the specified gradle version, a
 After this process is finished, the native code ddescribed above is linked into the Quorum Application `.app` executable using clang, and all resources specified in the generated robovm.xml file are copied as well.
 
 After this has finished a simulator should launch if specified, and then the app is installed and launched on a connected device (simulator or physical).   
+
     
-<p align="center"></p>  
+<div align="center">  
 
 Physics3D Sample Template |  Graphics2D Sample Template
 :-------------------------:|:-------------------------:
 <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM-2.png" width="200">
 
-<p></p>
+</div>
 
