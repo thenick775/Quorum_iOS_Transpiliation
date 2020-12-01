@@ -40,4 +40,6 @@ resulting archive file from the xcode_all_natives_v2allcmake/Debug-iphoneos or
 xcode_all_natives_v2allcmake/Debug-iphonesimulator and place this into the natives folder of
 the Quorum generated iOS project.
 
+Further information available in the WIKI!
+
 
