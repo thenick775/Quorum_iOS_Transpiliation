@@ -1,0 +1,6 @@
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/install.dir
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/package.dir
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/dist.dir
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/allnatives.dir
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/ALL_BUILD.dir
+/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeFiles/ZERO_CHECK.dir

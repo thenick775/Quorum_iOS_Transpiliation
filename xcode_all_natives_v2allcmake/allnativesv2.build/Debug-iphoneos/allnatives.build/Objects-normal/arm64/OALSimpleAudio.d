@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Support/SynthesizeSingleton.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALDevice.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALContext.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALListener.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALTypes.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/../Session/OALSuspendHandler.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALSource.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALSoundSource.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALBuffer.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/../Actions/OALAction.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/../Actions/../ObjectALConfig.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALChannelSource.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/ALSoundSourcePool.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./AudioTrack/OALAudioTrack.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./AudioTrack/../Actions/OALAction.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./AudioTrack/OALAudioTrackNotifications.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./AudioTrack/../Session/OALSuspendHandler.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Support/ObjectALMacros.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Support/../ObjectALConfig.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Support/OALTools.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Support/ARCSafe_MemMgmt.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./Session/OALAudioSession.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/../Session/../Support/SynthesizeSingleton.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/OpenALManager.h \
+  /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/./OpenAL/../Support/SynthesizeSingleton.h

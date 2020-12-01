@@ -1,0 +1,1561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1D11E8F532CC4CE2A64822C8 /* dist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2B565B2836B94B108379B50C /* Build configuration list for PBXAggregateTarget "dist" */;
+			buildPhases = (
+				605F9B4C6E9F4DBEBB55E738 /* CMake Rules */,
+			);
+			dependencies = (
+				21660106F9E3430E9FDB9651 /* PBXTargetDependency */,
+			);
+			name = dist;
+			productName = dist;
+		};
+		BDC6D693D470404E95DB27E7 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9A9786795A7D4028BF7C882F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E015EF23741E4D88AEE14651 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				6AD808785C434022AEED8EC0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		C4F4CE7E415C42B988F0A973 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E3BF1C137A2433F90BAC44D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3CDCABEC6E9F47AAA9380035 /* CMake Rules */,
+			);
+			dependencies = (
+				4DBB0DB2118348308684485B /* PBXTargetDependency */,
+				8695993F840D450D8A4F76B2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CC35CB4C665E44359A771D1B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 38E215AB0C9F4684BD68EF0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AE7DD972D947410C9A94A7FE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5523ABBD8014C28B3F093B7 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C88B9E5BEC4541D3B90466F7 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				AA7A15E3ABD54A7186450D50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				0ADE543EA0054D3AB30FAB77 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		002067E85D104DB1B978A5DF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = 9F86D78408864147886CECED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.h */; };
+		00480C4295AC4D078E0A920C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = A4CD3E6B9EC147A690BBB3DE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type42/type42.c */; };
+		014132F9CD7543DDBB1BF25F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = 3364903879D24963863C7646 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbdf.c */; };
+		03946BEE0C24447987807E46 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXBuildFile; fileRef = A21398DCDEF74E01ABEC6C48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftoutln.c */; };
+		084306E9B38F4063842EB14F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXBuildFile; fileRef = 9FD87B7D01DF4F78810FA2F6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAudioActions.m */; };
+		10341E80A8C04958B3D6F437 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXBuildFile; fileRef = B74A27BD57AD48118F292ED5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftobjs.c */; };
+		116323BB25FD4C2E80B8CEC9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = 584DE896095A4DF7BC70C6AA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftmemory.h */; };
+		1210C2EB60CC45AB9FE50830 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = E4876779197F487F9FFC6843 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbbox.c */; };
+		139188C98B5C456293CFBB61 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.m */ = {isa = PBXBuildFile; fileRef = BBF63D977AD2488AB304DE38 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.m */; };
+		1533673D3CC747BFBE4CA5BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXBuildFile; fileRef = 1507FB14637A4193B725C73E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSource.m */; };
+		1598B22FB9BD40A59E387525 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXBuildFile; fileRef = A32CEA480A8C445EAF1C61C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/FreeTypeStrategy.c */; };
+		1640DE64CBFA4B129CB00F04 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXBuildFile; fileRef = 18C9169A1FA74A8583A00BDF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftlcdfil.c */; };
+		183F33A1FE4442FA8E722B35 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = 4925069FB1D3488B98E47A3F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cid/type1cid.c */; };
+		18B1855538E04499A688A1CA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXBuildFile; fileRef = F078DEC0E30A42178D641010 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSoundSourcePool.m */; };
+		1EC18E1E64C4478FA88BDFCD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = BE736EE2C43048BDA11F541B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/sfnt.h */; };
+		24B565030D124748AA83424F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = 5B4A27EBB9EA41669844C36D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.m */; };
+		24F5D97012874A8E80B9D4A8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 3EBF5AA56F314DC494EE4DC1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/t1types.h */; };
+		25771530232E494C97F94C09 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXBuildFile; fileRef = E14BB48D0F034483892C5E8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALSuspendHandler.m */; };
+		265D50B7B99144C3B8968547 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = 0BAA1445E93F4BF799F88EFB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/pshints.h */; };
+		277BF28ACA91481FB823DE77 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXBuildFile; fileRef = D8DB61459C1E4DEFA20AF119 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.h */; };
+		2837CC8DF6674AB2BB5F828E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = 95AC6DCF869549A8BD95C10C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */; };
+		2DBB9230B274448B991B0B8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Matrix4.cpp */ = {isa = PBXBuildFile; fileRef = 2A9463FCED994D96B58B4A9B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Matrix4.cpp */; };
+		2FACBA40138A43F0A4A7AEC3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXBuildFile; fileRef = 9E7E4854857F476FA8D9C21C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgloadr.c */; };
+		3319C9994E6D4E30BAF9FF4B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXBuildFile; fileRef = 888AD41C41BE410899879CAE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALCaptureDevice.m */; };
+		3365FCC475424E55BFF4FCF6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = 7D4AD8C8C0BE451BB2F4EB48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/lzw/ftlzw.c */; };
+		356B4A8B0A1E43088154AD86 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = FF893CE2C45446258EFF11F2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftinit.c */; };
+		3593F08C6A67472A9FD4428E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXBuildFile; fileRef = 6D664AC5ED854442A92F584F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrack.m */; };
+		38D9E564F6BB4A66AE8BC7E9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = 018D0B9DBC7849368B9F6161 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsynth.c */; };
+		3A1D0CB7F8974760AC8A1EF7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/BufferUtils.cpp */ = {isa = PBXBuildFile; fileRef = 7F1E56706392480293AC3433 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/BufferUtils.cpp */; };
+		3A5A13D4708D453D9C38992B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXBuildFile; fileRef = 370F358213F94189800427D3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstream.c */; };
+		3ABAD250529B45DA84794B13 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = E88C86530DBA4B21A88FA858 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftglyph.c */; };
+		3BC9026E6D354035A5F38187 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = 86478ADB5EA54C50980E57D5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftstream.h */; };
+		3D441308C9E24ADC81BD0505 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXBuildFile; fileRef = C05E769A308648029F8835A5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALBuffer.m */; };
+		408A9129FC854A399B31747C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXBuildFile; fileRef = 9023F0B54A9048E98A8C0297 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/OpenALManager.m */; };
+		42F57E1E5A3A403A8D17AAF3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/IOSGraphics.cpp */ = {isa = PBXBuildFile; fileRef = C0AABBBB9FB544FDABCC3DBE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/IOSGraphics.cpp */; };
+		44841448ABD44B909600B3D1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = 056FF81068DF4EC9B2636C90 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcid.c */; };
+		4A291F1B0C254A94A53BC0EB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = DE273D5A5A624164893787F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbitmap.c */; };
+		4AAE99C9C3EA463D9F9F678C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = 96BBA54B475E4217B63809C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth/smooth.c */; };
+		50F873C3BE8E4D28B26103F6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 799A828537514792B876F16A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttype1.c */; };
+		5185AB20E3344D4AAC6FB1FA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m */ = {isa = PBXBuildFile; fileRef = B81E9ED9C8C94F78B8675354 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m */; };
+		52CB405EC7014215960D4270 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXBuildFile; fileRef = 9386688F406C4BC08080F3BE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftrfork.c */; };
+		54898B5FD5384AF5AEDFBD1D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = CC36822C6D7A41E987CEAD05 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpatent.c */; };
+		57CC5D70CFFA449AB0CFB6CC /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.h */ = {isa = PBXBuildFile; fileRef = 3B7A1CC06D0442AAB135990A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.h */; };
+		595F2FF6F1DF405CA3B8209D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = EAC55C7657DD4D1D9D508903 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cff/cff.c */; };
+		5BD2FCA229C34E19A66F1511 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = 94FE8E42E25F4902AC94E754 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pfr/pfr.c */; };
+		5D1FEDEAC9C94CF38671714F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.m */ = {isa = PBXBuildFile; fileRef = 437E2288C1184DA895F5F716 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.m */; };
+		5DDAB1393BDE4A82B3E08658 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = 6E0ACD72A14A4677B30E4B53 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgasp.c */; };
+		5E248AE689454BEB9D750EA6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = F318EE63F9EF4099A3428078 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftfstype.c */; };
+		5E3583D999AB40A093E51CCF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = F4235F1B794E4FDB891A7AF1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpfr.c */; };
+		60447B478FE44E81806490D0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXBuildFile; fileRef = A8437289EDF0413D969C531F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALDevice.m */; };
+		60921242E8E34C789C10EE5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = B6925DA1776248669AC23F5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bzip2/ftbzip2.c */; };
+		60B6B7D0979D42F8A758101A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 1690B549029E469C8E7AF85B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftconfig.h */; };
+		60BA97871D6246A0ADEDCCBA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd.cpp */ = {isa = PBXBuildFile; fileRef = 0DA0B93723234A7DAFF40D23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd.cpp */; };
+		62ACA3110C8744C4A6449A1E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = 070BFFB062534F3B9115F042 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdebug.c */; };
+		62BC2A1B55E849B18B2D8305 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXBuildFile; fileRef = 005D1C10D22E49C5BA63BD97 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdriver.h */; };
+		64D00D6E191045209AE04C65 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = 190CD495AE1A4540BD018A5C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftotval.c */; };
+		6652946D3A604B3EB3F65206 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXBuildFile; fileRef = 0B1A1133FF2F4A95918BAEAA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALChannelSource.m */; };
+		69412A45A2FD4949BB2A8CBF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXBuildFile; fileRef = AD26C63A781549558C520A6F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALUtilityActions.m */; };
+		6A2E3F30C63C4CBAB347E8C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = 39139A70B46443A79EC56C80 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/winfonts/winfnt.c */; };
+		6C59B64A85734A948358826D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXBuildFile; fileRef = B21B6518C96D4478A6C701CD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALWrapper.m */; };
+		6D213A5D273B4DDEAEE54ACE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/PixelMap.cpp */ = {isa = PBXBuildFile; fileRef = 7B4A65C26382468D9EF79923 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/PixelMap.cpp */; };
+		73D6D5BD5CA0423C942E4934 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXBuildFile; fileRef = 621A6D6286424C869DF78FEE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALActionManager.m */; };
+		73F9245A02C44C87A5BFEA1E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXBuildFile; fileRef = 20CA5D9611834F62A072CC2B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsnames.c */; };
+		75C29611308A41139CB9551F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = B0B8CEEF84894705A21C89ED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt/sfnt.c */; };
+		766E87830DFE48C69FD2A17E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXBuildFile; fileRef = E355F41C467848CC9B26D1FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftpic.h */; };
+		76849845A8874D89B3C0DDB6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAction.m */ = {isa = PBXBuildFile; fileRef = 18D79E4541114A97B04394A8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAction.m */; };
+		784D08A8038D4CC59B699B47 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = A6D3E49EE2354BCCAB99A293 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/autohint.h */; };
+		7A003837F20F45DB8DAF30A1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = 1785B789082C46EB9A27F87A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster/raster.c */; };
+		7D39BBFA27344BDBA8EFDB03 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = 971D5DD3814B4A82A1609641 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftoption.h */; };
+		7F1F8E3C704046EAA9DE44BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALNotifications.h */ = {isa = PBXBuildFile; fileRef = 5A2F856462FD428C92F6542F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALNotifications.h */; };
+		80BAE1C1713B441F90BD523B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.h */ = {isa = PBXBuildFile; fileRef = AB985A3EF38F413989F6336D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.h */; };
+		8273BC6AED5C4ED684D54756 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = 574F9F36E5C74938B0E014FD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftrfork.h */; };
+		85FF491B17B64281B9231028 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = BD37E53632C840FB96DD5012 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bdf/bdf.c */; };
+		892A01689C8D46A097B78CA2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = 5F3A0428BA4F43409E38A2F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftgloadr.h */; };
+		89EC6A71554B4D02BF5AF40D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = 0E4A5E773936490EA7116FFD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgxval.c */; };
+		8AC88D1175C64708B23638E0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXBuildFile; fileRef = 27E09C5CD1EB4378AF7DB452 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALListener.m */; };
+		8D1760856C2545D8BA257B7B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = A0DD8A6C9ED64DE78425E241 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftheader.h */; };
+		94686419B78C4B9FA98E74E5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = DFEAEAE636DC47F1816C9A59 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftmodule.h */; };
+		961F4F17B55C40568D47CDFE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXBuildFile; fileRef = 94226C2CBA7D46CA8CF227A2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftutil.c */; };
+		99359C3AE3BE488EA42CCD38 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXBuildFile; fileRef = 328C5BEBAB7C428A8B99AA03 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftadvanc.c */; };
+		99D463B1421F40A9AC1778E3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXBuildFile; fileRef = 3DED867E8BF644B5BA32A40A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/internal.h */; };
+		9EECF64FFD0248F68F9685F2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = BE372F6336764B568D53BC4F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftserv.h */; };
+		9F3126EFEF4D48E3809538B4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = C1B066E91B4E4818B3EC72A0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pshinter/pshinter.c */; };
+		9F39609FD2544C0C9144AD8E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXBuildFile; fileRef = F8FF9DC7DC624493B46D5170 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/SynthesizeSingleton.h */; };
+		9FD60FEAED7440C3ADBB28E5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = EF570CE0389449BC968488BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftmm.c */; };
+		A5123D3DD437479DA02E2792 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd_c.cpp */ = {isa = PBXBuildFile; fileRef = 7B5EAEECFD32403188765D41 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd_c.cpp */; };
+		A5606F85AD2A4866839AB358 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = 773C77B755A44BAF86CAB3CA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdebug.h */; };
+		A80EF7FFD6EF48849B4EF2B6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXBuildFile; fileRef = 04B394F2309A4215B4730A8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcalc.c */; };
+		A83BFF3066164D3EBAC9DBE5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = 41CFC302329A43C3B29BEAE3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit/autofit.c */; };
+		AAAC06F1AAE24C6CBBE47C90 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = 6CD067A8193B46EBAD60DAF3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsystem.c */; };
+		ACB03F91EA8342468F71A47F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXBuildFile; fileRef = 79BCD0ED01C9409FA7798B5B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdbgmem.c */; };
+		B08E5DFA153D494EA683804E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = 2C2AF1928955421BAE31352C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftstdlib.h */; };
+		B0C5DC6120534B2FB9BB7068 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/gdx2d.c */ = {isa = PBXBuildFile; fileRef = 553087EA52EA451392BDF1C0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/gdx2d.c */; };
+		B447B4771EF341A49B129332 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = F3521CDD8FB24AC0BB840742 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type1/type1.c */; };
+		B8A5FC50C1384C05BDE447E2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = 36E5CC9158154A8FAFDC647F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/gzip/ftgzip.c */; };
+		B8BC80DBA59B415BB2E97169 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.c */ = {isa = PBXBuildFile; fileRef = 366E79F120C748B18F971E0C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.c */; };
+		B8FF02A8AD334B36BB8D5881 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = 608E0380A09344BD9F0FED81 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */; };
+		B9875761FFFE45B5ACA0D7AD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = C476EF3FC8BE4D77AE419CE1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftwinfnt.c */; };
+		BA76C45A8319436BAD496A8E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Font.c */ = {isa = PBXBuildFile; fileRef = 7815B5B74DEB4FE19E4890F3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Font.c */; };
+		BC49C395355F4857A13DCC95 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = 67A9630D567E4C4FB6A02732 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftobjs.h */; };
+		BCE711C565FE450A9CC38C6D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXBuildFile; fileRef = CF1C6CFDDF024CDDB82635B3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftxf86.c */; };
+		BFE8AEF2B8374F00A26B3B63 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 05E12D33172649ECACF7CF96 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */; };
+		C8EA18DD033F46A6923BCD03 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = 65294DC06CF54284853698FB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/tttypes.h */; };
+		CB0399B2B8B14E858A085C7F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXBuildFile; fileRef = 977277C60EB34C9BA5FC5CF8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALAudioSession.m */; };
+		CB9776B68961486682799450 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXBuildFile; fileRef = 64A49C95B3EE4866BFB17C0A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTracks.m */; };
+		D0F0296FE9DB4898877BFABF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = FF5C8D711BC449C3AE9C64FC /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux/psaux.c */; };
+		D11F652BE55D4DEA8A3288FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = 3052D08083A1441DBACDCB6D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/fttrace.h */; };
+		D1E0995824CF4720920F9289 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXBuildFile; fileRef = 2DB05D5D6FF94E3FB200F487 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.m */; };
+		D31A646CFF4D41A3A6AC766D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXBuildFile; fileRef = 82B71AFF02F24941BDC7CE87 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALContext.m */; };
+		DE50637B3140423587471A21 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = D49EDD25D4AC446BA443AA23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pcf/pcf.c */; };
+		DEF12FAFB62D41A38B56C67C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXBuildFile; fileRef = 452E743BC8914E5E9A0E7EEF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */; };
+		DF811B22B05845899CC49C8B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = D5B25E7066B043F092DE81FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cache/ftcache.c */; };
+		E4252AAD743D45A887C27876 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = D746103285C14CD0AAE7F1AE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftvalid.h */; };
+		E79DBF531D9240D0B71B3A67 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.h */ = {isa = PBXBuildFile; fileRef = 698DA6062F68484581AE222A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.h */; };
+		E840B664D6344ECB8A28CD3D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = A7A674CE0F6F431DACA453E9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftcalc.h */; };
+		ECE4061B3A814F6D95815EA6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = FB3A9E98A0B148DDBE2DE6F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstroke.c */; };
+		F412CE085E934C778D6B82D5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = 64822AC77D42495E90160B56 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype/truetype.c */; };
+		F4B104905A99417395EBAEB6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXBuildFile; fileRef = 5B65075AC5BE4991BF26C8E3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames/psmodule.c */; };
+		F811016821874606B2542447 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = 66168159336B452B8556CA5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/psaux.h */; };
+		F8301444509749AFBF6EA983 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXBuildFile; fileRef = D61AC5877C9B40EFA7D8D0B8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttrigon.c */; };
+		F8B50CE8E5394DE6B7AED426 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXBuildFile; fileRef = 132C2ADEA9114D3AA8A91D3C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ARCSafe_MemMgmt.h */; };
+		FA09FA667ADB464DBAA07D88 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXBuildFile; fileRef = F9B9217167F742749DBAF5E1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ObjectALMacros.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6BBA30BD8ED347C9B8B06FE5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8A5721612FDA40538F331A54 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E100DBCADF0443ABAB56E3D0 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F018F39F25804040A8D101DB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		2BC5BAE6B66A4333A63E9B18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F4CE7E415C42B988F0A973;
+			remoteInfo = ALL_BUILD;
+		};
+		58FA440EAD9F42179DA2CC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4F4CE7E415C42B988F0A973;
+			remoteInfo = ALL_BUILD;
+		};
+		7059642EFD944ADA8812394F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC35CB4C665E44359A771D1B;
+			remoteInfo = ZERO_CHECK;
+		};
+		74851A6239214850BF4E3B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC35CB4C665E44359A771D1B;
+			remoteInfo = ZERO_CHECK;
+		};
+		AA206E62E1ED4235AF2DDC4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC35CB4C665E44359A771D1B;
+			remoteInfo = ZERO_CHECK;
+		};
+		B83EA1F5744C4A04B4C9E8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54EA9A724F38486782EEBD98;
+			remoteInfo = allnatives;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D1C10D22E49C5BA63BD97 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = include/internal/ftdriver.h; sourceTree = SOURCE_ROOT; };
+		018D0B9DBC7849368B9F6161 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = src/base/ftsynth.c; sourceTree = SOURCE_ROOT; };
+		04B394F2309A4215B4730A8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcalc.c; path = src/base/ftcalc.c; sourceTree = SOURCE_ROOT; };
+		056FF81068DF4EC9B2636C90 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = src/base/ftcid.c; sourceTree = SOURCE_ROOT; };
+		05E12D33172649ECACF7CF96 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		070BFFB062534F3B9115F042 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = src/base/ftdebug.c; sourceTree = SOURCE_ROOT; };
+		0B1A1133FF2F4A95918BAEAA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALChannelSource.m; path = ../ObjectAL/OpenAL/ALChannelSource.m; sourceTree = SOURCE_ROOT; };
+		0BAA1445E93F4BF799F88EFB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = include/internal/pshints.h; sourceTree = SOURCE_ROOT; };
+		0DA0B93723234A7DAFF40D23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd.cpp; path = ../ios/jpgd.cpp; sourceTree = SOURCE_ROOT; };
+		0E4A5E773936490EA7116FFD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = src/base/ftgxval.c; sourceTree = SOURCE_ROOT; };
+		132C2ADEA9114D3AA8A91D3C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARCSafe_MemMgmt.h; path = ../ObjectAL/Support/ARCSafe_MemMgmt.h; sourceTree = SOURCE_ROOT; };
+		1507FB14637A4193B725C73E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSource.m; path = ../ObjectAL/OpenAL/ALSource.m; sourceTree = SOURCE_ROOT; };
+		1690B549029E469C8E7AF85B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = include/config/ftconfig.h; sourceTree = SOURCE_ROOT; };
+		1785B789082C46EB9A27F87A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = src/raster/raster.c; sourceTree = SOURCE_ROOT; };
+		18C9169A1FA74A8583A00BDF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlcdfil.c; path = src/base/ftlcdfil.c; sourceTree = SOURCE_ROOT; };
+		18D79E4541114A97B04394A8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAction.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAction.m; path = ../ObjectAL/Actions/OALAction.m; sourceTree = SOURCE_ROOT; };
+		190CD495AE1A4540BD018A5C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = src/base/ftotval.c; sourceTree = SOURCE_ROOT; };
+		20CA5D9611834F62A072CC2B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsnames.c; path = src/base/ftsnames.c; sourceTree = SOURCE_ROOT; };
+		27E09C5CD1EB4378AF7DB452 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALListener.m; path = ../ObjectAL/OpenAL/ALListener.m; sourceTree = SOURCE_ROOT; };
+		2A9463FCED994D96B58B4A9B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Matrix4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix4.cpp; path = ../ios/Matrix4.cpp; sourceTree = SOURCE_ROOT; };
+		2C2AF1928955421BAE31352C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = include/config/ftstdlib.h; sourceTree = SOURCE_ROOT; };
+		2DB05D5D6FF94E3FB200F487 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioFile.m; path = ../ObjectAL/Support/OALAudioFile.m; sourceTree = SOURCE_ROOT; };
+		3052D08083A1441DBACDCB6D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = include/internal/fttrace.h; sourceTree = SOURCE_ROOT; };
+		328C5BEBAB7C428A8B99AA03 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftadvanc.c; path = src/base/ftadvanc.c; sourceTree = SOURCE_ROOT; };
+		3364903879D24963863C7646 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = src/base/ftbdf.c; sourceTree = SOURCE_ROOT; };
+		366E79F120C748B18F971E0C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_timing.c; path = ../ObjectAL/Support/mach_timing.c; sourceTree = SOURCE_ROOT; };
+		36E5CC9158154A8FAFDC647F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = src/gzip/ftgzip.c; sourceTree = SOURCE_ROOT; };
+		370F358213F94189800427D3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstream.c; path = src/base/ftstream.c; sourceTree = SOURCE_ROOT; };
+		39139A70B46443A79EC56C80 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = src/winfonts/winfnt.c; sourceTree = SOURCE_ROOT; };
+		3B7A1CC06D0442AAB135990A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IOSVersion.h; path = ../ObjectAL/Support/IOSVersion.h; sourceTree = SOURCE_ROOT; };
+		3DED867E8BF644B5BA32A40A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = include/internal/internal.h; sourceTree = SOURCE_ROOT; };
+		3EBF5AA56F314DC494EE4DC1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = include/internal/t1types.h; sourceTree = SOURCE_ROOT; };
+		41CFC302329A43C3B29BEAE3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = src/autofit/autofit.c; sourceTree = SOURCE_ROOT; };
+		437E2288C1184DA895F5F716 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALTools.m; path = ../ObjectAL/Support/OALTools.m; sourceTree = SOURCE_ROOT; };
+		452E743BC8914E5E9A0E7EEF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrackNotifications.m; path = ../ObjectAL/AudioTrack/OALAudioTrackNotifications.m; sourceTree = SOURCE_ROOT; };
+		48E8D26B9DC34383AB84D7F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4925069FB1D3488B98E47A3F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = src/cid/type1cid.c; sourceTree = SOURCE_ROOT; };
+		553087EA52EA451392BDF1C0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/gdx2d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gdx2d.c; path = ../ios/gdx2d.c; sourceTree = SOURCE_ROOT; };
+		574F9F36E5C74938B0E014FD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = include/internal/ftrfork.h; sourceTree = SOURCE_ROOT; };
+		584DE896095A4DF7BC70C6AA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = include/internal/ftmemory.h; sourceTree = SOURCE_ROOT; };
+		5A2F856462FD428C92F6542F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALNotifications.h; path = ../ObjectAL/Support/OALNotifications.h; sourceTree = SOURCE_ROOT; };
+		5B4A27EBB9EA41669844C36D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableArray+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		5B65075AC5BE4991BF26C8E3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psmodule.c; path = src/psnames/psmodule.c; sourceTree = SOURCE_ROOT; };
+		5F3A0428BA4F43409E38A2F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = include/internal/ftgloadr.h; sourceTree = SOURCE_ROOT; };
+		608E0380A09344BD9F0FED81 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		621A6D6286424C869DF78FEE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALActionManager.m; path = ../ObjectAL/Actions/OALActionManager.m; sourceTree = SOURCE_ROOT; };
+		64822AC77D42495E90160B56 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = src/truetype/truetype.c; sourceTree = SOURCE_ROOT; };
+		64A49C95B3EE4866BFB17C0A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTracks.m; path = ../ObjectAL/AudioTrack/OALAudioTracks.m; sourceTree = SOURCE_ROOT; };
+		64A8BCE5F18F460E8316E457 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		65294DC06CF54284853698FB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = include/internal/tttypes.h; sourceTree = SOURCE_ROOT; };
+		66168159336B452B8556CA5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = include/internal/psaux.h; sourceTree = SOURCE_ROOT; };
+		67A9630D567E4C4FB6A02732 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = include/internal/ftobjs.h; sourceTree = SOURCE_ROOT; };
+		698DA6062F68484581AE222A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALTools.h; path = ../ObjectAL/Support/OALTools.h; sourceTree = SOURCE_ROOT; };
+		6CD067A8193B46EBAD60DAF3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = src/base/ftsystem.c; sourceTree = SOURCE_ROOT; };
+		6D664AC5ED854442A92F584F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrack.m; path = ../ObjectAL/AudioTrack/OALAudioTrack.m; sourceTree = SOURCE_ROOT; };
+		6E0ACD72A14A4677B30E4B53 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = src/base/ftgasp.c; sourceTree = SOURCE_ROOT; };
+		773C77B755A44BAF86CAB3CA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = include/internal/ftdebug.h; sourceTree = SOURCE_ROOT; };
+		7815B5B74DEB4FE19E4890F3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Font.c; path = ../ios/Font.c; sourceTree = SOURCE_ROOT; };
+		799A828537514792B876F16A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = src/base/fttype1.c; sourceTree = SOURCE_ROOT; };
+		79BCD0ED01C9409FA7798B5B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdbgmem.c; path = src/base/ftdbgmem.c; sourceTree = SOURCE_ROOT; };
+		7B4A65C26382468D9EF79923 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/PixelMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelMap.cpp; path = ../ios/PixelMap.cpp; sourceTree = SOURCE_ROOT; };
+		7B5EAEECFD32403188765D41 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd_c.cpp; path = ../ios/jpgd_c.cpp; sourceTree = SOURCE_ROOT; };
+		7D4AD8C8C0BE451BB2F4EB48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = src/lzw/ftlzw.c; sourceTree = SOURCE_ROOT; };
+		7F1E56706392480293AC3433 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/BufferUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BufferUtils.cpp; path = ../ios/BufferUtils.cpp; sourceTree = SOURCE_ROOT; };
+		82B71AFF02F24941BDC7CE87 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALContext.m; path = ../ObjectAL/OpenAL/ALContext.m; sourceTree = SOURCE_ROOT; };
+		86478ADB5EA54C50980E57D5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = include/internal/ftstream.h; sourceTree = SOURCE_ROOT; };
+		888AD41C41BE410899879CAE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALCaptureDevice.m; path = ../ObjectAL/OpenAL/ALCaptureDevice.m; sourceTree = SOURCE_ROOT; };
+		9023F0B54A9048E98A8C0297 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OpenALManager.m; path = ../ObjectAL/OpenAL/OpenALManager.m; sourceTree = SOURCE_ROOT; };
+		9386688F406C4BC08080F3BE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftrfork.c; path = src/base/ftrfork.c; sourceTree = SOURCE_ROOT; };
+		94226C2CBA7D46CA8CF227A2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftutil.c; path = src/base/ftutil.c; sourceTree = SOURCE_ROOT; };
+		94FE8E42E25F4902AC94E754 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = src/pfr/pfr.c; sourceTree = SOURCE_ROOT; };
+		95AC6DCF869549A8BD95C10C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		96BBA54B475E4217B63809C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = src/smooth/smooth.c; sourceTree = SOURCE_ROOT; };
+		971D5DD3814B4A82A1609641 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = include/config/ftoption.h; sourceTree = SOURCE_ROOT; };
+		977277C60EB34C9BA5FC5CF8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioSession.m; path = ../ObjectAL/Session/OALAudioSession.m; sourceTree = SOURCE_ROOT; };
+		9E7E4854857F476FA8D9C21C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgloadr.c; path = src/base/ftgloadr.c; sourceTree = SOURCE_ROOT; };
+		9F86D78408864147886CECED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableArray+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		9FD87B7D01DF4F78810FA2F6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioActions.m; path = ../ObjectAL/Actions/OALAudioActions.m; sourceTree = SOURCE_ROOT; };
+		A0DD8A6C9ED64DE78425E241 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = include/config/ftheader.h; sourceTree = SOURCE_ROOT; };
+		A21398DCDEF74E01ABEC6C48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftoutln.c; path = src/base/ftoutln.c; sourceTree = SOURCE_ROOT; };
+		A32CEA480A8C445EAF1C61C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FreeTypeStrategy.c; path = src/base/FreeTypeStrategy.c; sourceTree = SOURCE_ROOT; };
+		A4CD3E6B9EC147A690BBB3DE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = src/type42/type42.c; sourceTree = SOURCE_ROOT; };
+		A6D3E49EE2354BCCAB99A293 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = include/internal/autohint.h; sourceTree = SOURCE_ROOT; };
+		A7A674CE0F6F431DACA453E9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = include/internal/ftcalc.h; sourceTree = SOURCE_ROOT; };
+		A8437289EDF0413D969C531F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALDevice.m; path = ../ObjectAL/OpenAL/ALDevice.m; sourceTree = SOURCE_ROOT; };
+		A8899E42C3614333B538BE1E /* allnatives */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liballnatives.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB985A3EF38F413989F6336D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mach_timing.h; path = ../ObjectAL/Support/mach_timing.h; sourceTree = SOURCE_ROOT; };
+		AD26C63A781549558C520A6F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALUtilityActions.m; path = ../ObjectAL/Actions/OALUtilityActions.m; sourceTree = SOURCE_ROOT; };
+		B0B8CEEF84894705A21C89ED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = src/sfnt/sfnt.c; sourceTree = SOURCE_ROOT; };
+		B21B6518C96D4478A6C701CD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALWrapper.m; path = ../ObjectAL/OpenAL/ALWrapper.m; sourceTree = SOURCE_ROOT; };
+		B6925DA1776248669AC23F5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = src/bzip2/ftbzip2.c; sourceTree = SOURCE_ROOT; };
+		B74A27BD57AD48118F292ED5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftobjs.c; path = src/base/ftobjs.c; sourceTree = SOURCE_ROOT; };
+		B81E9ED9C8C94F78B8675354 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSimpleAudio.m; path = ../ObjectAL/OALSimpleAudio.m; sourceTree = SOURCE_ROOT; };
+		BBF63D977AD2488AB304DE38 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = IOSVersion.m; path = ../ObjectAL/Support/IOSVersion.m; sourceTree = SOURCE_ROOT; };
+		BD37E53632C840FB96DD5012 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = src/bdf/bdf.c; sourceTree = SOURCE_ROOT; };
+		BE372F6336764B568D53BC4F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = include/internal/ftserv.h; sourceTree = SOURCE_ROOT; };
+		BE736EE2C43048BDA11F541B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = include/internal/sfnt.h; sourceTree = SOURCE_ROOT; };
+		C05E769A308648029F8835A5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALBuffer.m; path = ../ObjectAL/OpenAL/ALBuffer.m; sourceTree = SOURCE_ROOT; };
+		C0AABBBB9FB544FDABCC3DBE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/IOSGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOSGraphics.cpp; path = ../ios/IOSGraphics.cpp; sourceTree = SOURCE_ROOT; };
+		C1B066E91B4E4818B3EC72A0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = src/pshinter/pshinter.c; sourceTree = SOURCE_ROOT; };
+		C476EF3FC8BE4D77AE419CE1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = src/base/ftwinfnt.c; sourceTree = SOURCE_ROOT; };
+		CC36822C6D7A41E987CEAD05 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = src/base/ftpatent.c; sourceTree = SOURCE_ROOT; };
+		CF1C6CFDDF024CDDB82635B3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftxf86.c; path = src/base/ftxf86.c; sourceTree = SOURCE_ROOT; };
+		D49EDD25D4AC446BA443AA23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = src/pcf/pcf.c; sourceTree = SOURCE_ROOT; };
+		D5B25E7066B043F092DE81FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = src/cache/ftcache.c; sourceTree = SOURCE_ROOT; };
+		D61AC5877C9B40EFA7D8D0B8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttrigon.c; path = src/base/fttrigon.c; sourceTree = SOURCE_ROOT; };
+		D746103285C14CD0AAE7F1AE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = include/internal/ftvalid.h; sourceTree = SOURCE_ROOT; };
+		D8DB61459C1E4DEFA20AF119 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALAudioFile.h; path = ../ObjectAL/Support/OALAudioFile.h; sourceTree = SOURCE_ROOT; };
+		DE273D5A5A624164893787F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = src/base/ftbitmap.c; sourceTree = SOURCE_ROOT; };
+		DFEAEAE636DC47F1816C9A59 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = include/config/ftmodule.h; sourceTree = SOURCE_ROOT; };
+		E14BB48D0F034483892C5E8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSuspendHandler.m; path = ../ObjectAL/Session/OALSuspendHandler.m; sourceTree = SOURCE_ROOT; };
+		E355F41C467848CC9B26D1FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpic.h; path = include/internal/ftpic.h; sourceTree = SOURCE_ROOT; };
+		E4876779197F487F9FFC6843 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = src/base/ftbbox.c; sourceTree = SOURCE_ROOT; };
+		E88C86530DBA4B21A88FA858 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = src/base/ftglyph.c; sourceTree = SOURCE_ROOT; };
+		EAC55C7657DD4D1D9D508903 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = src/cff/cff.c; sourceTree = SOURCE_ROOT; };
+		EF570CE0389449BC968488BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = src/base/ftmm.c; sourceTree = SOURCE_ROOT; };
+		F078DEC0E30A42178D641010 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSoundSourcePool.m; path = ../ObjectAL/OpenAL/ALSoundSourcePool.m; sourceTree = SOURCE_ROOT; };
+		F318EE63F9EF4099A3428078 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = src/base/ftfstype.c; sourceTree = SOURCE_ROOT; };
+		F3521CDD8FB24AC0BB840742 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = src/type1/type1.c; sourceTree = SOURCE_ROOT; };
+		F4235F1B794E4FDB891A7AF1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = src/base/ftpfr.c; sourceTree = SOURCE_ROOT; };
+		F8FF9DC7DC624493B46D5170 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthesizeSingleton.h; path = ../ObjectAL/Support/SynthesizeSingleton.h; sourceTree = SOURCE_ROOT; };
+		F9B9217167F742749DBAF5E1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjectALMacros.h; path = ../ObjectAL/Support/ObjectALMacros.h; sourceTree = SOURCE_ROOT; };
+		FB3A9E98A0B148DDBE2DE6F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = src/base/ftstroke.c; sourceTree = SOURCE_ROOT; };
+		FF5C8D711BC449C3AE9C64FC /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = src/psaux/psaux.c; sourceTree = SOURCE_ROOT; };
+		FF893CE2C45446258EFF11F2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = src/base/ftinit.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0C409D1E6457406492A667A5 /* allnatives */ = {
+			isa = PBXGroup;
+			children = (
+				9C98F196FE90496697DB610C /* Header Files */,
+				479C964ABCD148C18BC30FAC /* Source Files */,
+				05E12D33172649ECACF7CF96 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = allnatives;
+			sourceTree = "<group>";
+		};
+		23039DB0E96E43D5AF1DBA47 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		319683CDE55344BF99AF54FE = {
+			isa = PBXGroup;
+			children = (
+				B34826ABEE3D4A049B51F028 /* dist */,
+				0C409D1E6457406492A667A5 /* allnatives */,
+				C4F815AFA48B4C12A86B8958 /* ALL_BUILD */,
+				9F006430147342DA92272FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		479C964ABCD148C18BC30FAC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D79E4541114A97B04394A8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAction.m */,
+				621A6D6286424C869DF78FEE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALActionManager.m */,
+				9FD87B7D01DF4F78810FA2F6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAudioActions.m */,
+				AD26C63A781549558C520A6F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALUtilityActions.m */,
+				6D664AC5ED854442A92F584F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				452E743BC8914E5E9A0E7EEF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				64A49C95B3EE4866BFB17C0A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				B81E9ED9C8C94F78B8675354 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m */,
+				C05E769A308648029F8835A5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALBuffer.m */,
+				888AD41C41BE410899879CAE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				0B1A1133FF2F4A95918BAEAA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALChannelSource.m */,
+				82B71AFF02F24941BDC7CE87 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALContext.m */,
+				A8437289EDF0413D969C531F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALDevice.m */,
+				27E09C5CD1EB4378AF7DB452 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALListener.m */,
+				F078DEC0E30A42178D641010 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				1507FB14637A4193B725C73E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSource.m */,
+				B21B6518C96D4478A6C701CD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALWrapper.m */,
+				9023F0B54A9048E98A8C0297 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/OpenALManager.m */,
+				977277C60EB34C9BA5FC5CF8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALAudioSession.m */,
+				E14BB48D0F034483892C5E8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALSuspendHandler.m */,
+				BBF63D977AD2488AB304DE38 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.m */,
+				5B4A27EBB9EA41669844C36D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				95AC6DCF869549A8BD95C10C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				2DB05D5D6FF94E3FB200F487 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.m */,
+				437E2288C1184DA895F5F716 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.m */,
+				366E79F120C748B18F971E0C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.c */,
+				41CFC302329A43C3B29BEAE3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit/autofit.c */,
+				A32CEA480A8C445EAF1C61C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				328C5BEBAB7C428A8B99AA03 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftadvanc.c */,
+				E4876779197F487F9FFC6843 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbbox.c */,
+				3364903879D24963863C7646 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbdf.c */,
+				DE273D5A5A624164893787F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbitmap.c */,
+				04B394F2309A4215B4730A8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcalc.c */,
+				056FF81068DF4EC9B2636C90 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcid.c */,
+				79BCD0ED01C9409FA7798B5B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdbgmem.c */,
+				070BFFB062534F3B9115F042 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdebug.c */,
+				F318EE63F9EF4099A3428078 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftfstype.c */,
+				6E0ACD72A14A4677B30E4B53 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgasp.c */,
+				9E7E4854857F476FA8D9C21C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgloadr.c */,
+				E88C86530DBA4B21A88FA858 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftglyph.c */,
+				0E4A5E773936490EA7116FFD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgxval.c */,
+				FF893CE2C45446258EFF11F2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftinit.c */,
+				18C9169A1FA74A8583A00BDF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftlcdfil.c */,
+				EF570CE0389449BC968488BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftmm.c */,
+				B74A27BD57AD48118F292ED5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftobjs.c */,
+				190CD495AE1A4540BD018A5C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftotval.c */,
+				A21398DCDEF74E01ABEC6C48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftoutln.c */,
+				CC36822C6D7A41E987CEAD05 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpatent.c */,
+				F4235F1B794E4FDB891A7AF1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpfr.c */,
+				9386688F406C4BC08080F3BE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftrfork.c */,
+				20CA5D9611834F62A072CC2B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsnames.c */,
+				370F358213F94189800427D3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstream.c */,
+				FB3A9E98A0B148DDBE2DE6F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstroke.c */,
+				018D0B9DBC7849368B9F6161 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsynth.c */,
+				6CD067A8193B46EBAD60DAF3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsystem.c */,
+				D61AC5877C9B40EFA7D8D0B8 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttrigon.c */,
+				799A828537514792B876F16A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttype1.c */,
+				94226C2CBA7D46CA8CF227A2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftutil.c */,
+				C476EF3FC8BE4D77AE419CE1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftwinfnt.c */,
+				CF1C6CFDDF024CDDB82635B3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftxf86.c */,
+				BD37E53632C840FB96DD5012 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bdf/bdf.c */,
+				B6925DA1776248669AC23F5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				D5B25E7066B043F092DE81FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cache/ftcache.c */,
+				EAC55C7657DD4D1D9D508903 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cff/cff.c */,
+				4925069FB1D3488B98E47A3F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cid/type1cid.c */,
+				36E5CC9158154A8FAFDC647F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/gzip/ftgzip.c */,
+				7D4AD8C8C0BE451BB2F4EB48 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/lzw/ftlzw.c */,
+				D49EDD25D4AC446BA443AA23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pcf/pcf.c */,
+				94FE8E42E25F4902AC94E754 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pfr/pfr.c */,
+				FF5C8D711BC449C3AE9C64FC /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux/psaux.c */,
+				C1B066E91B4E4818B3EC72A0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pshinter/pshinter.c */,
+				5B65075AC5BE4991BF26C8E3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames/psmodule.c */,
+				1785B789082C46EB9A27F87A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster/raster.c */,
+				B0B8CEEF84894705A21C89ED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt/sfnt.c */,
+				96BBA54B475E4217B63809C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth/smooth.c */,
+				64822AC77D42495E90160B56 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype/truetype.c */,
+				F3521CDD8FB24AC0BB840742 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type1/type1.c */,
+				A4CD3E6B9EC147A690BBB3DE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type42/type42.c */,
+				39139A70B46443A79EC56C80 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/winfonts/winfnt.c */,
+				7F1E56706392480293AC3433 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/BufferUtils.cpp */,
+				7815B5B74DEB4FE19E4890F3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Font.c */,
+				C0AABBBB9FB544FDABCC3DBE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/IOSGraphics.cpp */,
+				2A9463FCED994D96B58B4A9B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Matrix4.cpp */,
+				7B4A65C26382468D9EF79923 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/PixelMap.cpp */,
+				553087EA52EA451392BDF1C0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/gdx2d.c */,
+				0DA0B93723234A7DAFF40D23 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd.cpp */,
+				7B5EAEECFD32403188765D41 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd_c.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		87C39BA99E16418BAB553DB7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9C98F196FE90496697DB610C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				132C2ADEA9114D3AA8A91D3C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ARCSafe_MemMgmt.h */,
+				3B7A1CC06D0442AAB135990A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.h */,
+				9F86D78408864147886CECED /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.h */,
+				608E0380A09344BD9F0FED81 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */,
+				D8DB61459C1E4DEFA20AF119 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.h */,
+				5A2F856462FD428C92F6542F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALNotifications.h */,
+				698DA6062F68484581AE222A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.h */,
+				F9B9217167F742749DBAF5E1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/ObjectALMacros.h */,
+				F8FF9DC7DC624493B46D5170 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/SynthesizeSingleton.h */,
+				AB985A3EF38F413989F6336D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.h */,
+				1690B549029E469C8E7AF85B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftconfig.h */,
+				A0DD8A6C9ED64DE78425E241 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftheader.h */,
+				DFEAEAE636DC47F1816C9A59 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftmodule.h */,
+				971D5DD3814B4A82A1609641 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftoption.h */,
+				2C2AF1928955421BAE31352C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/config/ftstdlib.h */,
+				A6D3E49EE2354BCCAB99A293 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/autohint.h */,
+				A7A674CE0F6F431DACA453E9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftcalc.h */,
+				773C77B755A44BAF86CAB3CA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdebug.h */,
+				005D1C10D22E49C5BA63BD97 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftdriver.h */,
+				5F3A0428BA4F43409E38A2F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftgloadr.h */,
+				584DE896095A4DF7BC70C6AA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftmemory.h */,
+				67A9630D567E4C4FB6A02732 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftobjs.h */,
+				E355F41C467848CC9B26D1FF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftpic.h */,
+				574F9F36E5C74938B0E014FD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftrfork.h */,
+				BE372F6336764B568D53BC4F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftserv.h */,
+				86478ADB5EA54C50980E57D5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftstream.h */,
+				3052D08083A1441DBACDCB6D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/fttrace.h */,
+				D746103285C14CD0AAE7F1AE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/ftvalid.h */,
+				3DED867E8BF644B5BA32A40A /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/internal.h */,
+				66168159336B452B8556CA5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/psaux.h */,
+				0BAA1445E93F4BF799F88EFB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/pshints.h */,
+				BE736EE2C43048BDA11F541B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/sfnt.h */,
+				3EBF5AA56F314DC494EE4DC1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/t1types.h */,
+				65294DC06CF54284853698FB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include/internal/tttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9F006430147342DA92272FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8899E42C3614333B538BE1E /* allnatives */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34826ABEE3D4A049B51F028 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				87C39BA99E16418BAB553DB7 /* CMake Rules */,
+				64A8BCE5F18F460E8316E457 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = dist;
+			sourceTree = "<group>";
+		};
+		C4F815AFA48B4C12A86B8958 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				23039DB0E96E43D5AF1DBA47 /* CMake Rules */,
+				48E8D26B9DC34383AB84D7F7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54EA9A724F38486782EEBD98 /* allnatives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4EAF6BC541427A8FD97420 /* Build configuration list for PBXNativeTarget "allnatives" */;
+			buildPhases = (
+				7E830188B01E44369EF68596 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DEEE55329B044D9AEEB46A7 /* PBXTargetDependency */,
+			);
+			name = allnatives;
+			productName = allnatives;
+			productReference = A8899E42C3614333B538BE1E /* allnatives */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1AEFED6C9D84A12AC6EA475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1220;
+			};
+			buildConfigurationList = F34AE83605CD4810ADFBE509 /* Build configuration list for PBXProject "allnativesv2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8A5721612FDA40538F331A54 /* Debug */,
+				6BBA30BD8ED347C9B8B06FE5 /* Release */,
+				F018F39F25804040A8D101DB /* MinSizeRel */,
+				E100DBCADF0443ABAB56E3D0 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 319683CDE55344BF99AF54FE;
+			projectDirPath = "freetype-2.5.5";
+			projectRoot = "";
+			targets = (
+				C4F4CE7E415C42B988F0A973 /* ALL_BUILD */,
+				CC35CB4C665E44359A771D1B /* ZERO_CHECK */,
+				54EA9A724F38486782EEBD98 /* allnatives */,
+				1D11E8F532CC4CE2A64822C8 /* dist */,
+				BDC6D693D470404E95DB27E7 /* install */,
+				F5523ABBD8014C28B3F093B7 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A23BFDEA1B496CBE945625 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		213FA984303B4AD3998F490A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3CDCABEC6E9F47AAA9380035 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake -f /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		55A6B74C89B748A985B52AF2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		605F9B4C6E9F4DBEBB55E738 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake -f /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeScripts/dist_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		87E8FE1A032B43A79A521512 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9E6EF628852E4434A274E6A5 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AA7A15E3ABD54A7186450D50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake -f /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AE7DD972D947410C9A94A7FE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake -f /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E015EF23741E4D88AEE14651 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake -f /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E830188B01E44369EF68596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76849845A8874D89B3C0DDB6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAction.m */,
+				73D6D5BD5CA0423C942E4934 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALActionManager.m */,
+				084306E9B38F4063842EB14F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALAudioActions.m */,
+				69412A45A2FD4949BB2A8CBF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Actions/OALUtilityActions.m */,
+				3593F08C6A67472A9FD4428E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				DEF12FAFB62D41A38B56C67C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				CB9776B68961486682799450 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				5185AB20E3344D4AAC6FB1FA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OALSimpleAudio.m */,
+				3D441308C9E24ADC81BD0505 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALBuffer.m */,
+				3319C9994E6D4E30BAF9FF4B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				6652946D3A604B3EB3F65206 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALChannelSource.m */,
+				D31A646CFF4D41A3A6AC766D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALContext.m */,
+				60447B478FE44E81806490D0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALDevice.m */,
+				8AC88D1175C64708B23638E0 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALListener.m */,
+				18B1855538E04499A688A1CA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				1533673D3CC747BFBE4CA5BD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALSource.m */,
+				6C59B64A85734A948358826D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/ALWrapper.m */,
+				408A9129FC854A399B31747C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/OpenAL/OpenALManager.m */,
+				CB0399B2B8B14E858A085C7F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALAudioSession.m */,
+				25771530232E494C97F94C09 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Session/OALSuspendHandler.m */,
+				139188C98B5C456293CFBB61 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/IOSVersion.m */,
+				24B565030D124748AA83424F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				2837CC8DF6674AB2BB5F828E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				D1E0995824CF4720920F9289 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALAudioFile.m */,
+				5D1FEDEAC9C94CF38671714F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/OALTools.m */,
+				B8BC80DBA59B415BB2E97169 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ObjectAL/Support/mach_timing.c */,
+				A83BFF3066164D3EBAC9DBE5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit/autofit.c */,
+				1598B22FB9BD40A59E387525 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				99359C3AE3BE488EA42CCD38 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftadvanc.c */,
+				1210C2EB60CC45AB9FE50830 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbbox.c */,
+				014132F9CD7543DDBB1BF25F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbdf.c */,
+				4A291F1B0C254A94A53BC0EB /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftbitmap.c */,
+				A80EF7FFD6EF48849B4EF2B6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcalc.c */,
+				44841448ABD44B909600B3D1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftcid.c */,
+				ACB03F91EA8342468F71A47F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdbgmem.c */,
+				62ACA3110C8744C4A6449A1E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftdebug.c */,
+				5E248AE689454BEB9D750EA6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftfstype.c */,
+				5DDAB1393BDE4A82B3E08658 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgasp.c */,
+				2FACBA40138A43F0A4A7AEC3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgloadr.c */,
+				3ABAD250529B45DA84794B13 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftglyph.c */,
+				89EC6A71554B4D02BF5AF40D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftgxval.c */,
+				356B4A8B0A1E43088154AD86 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftinit.c */,
+				1640DE64CBFA4B129CB00F04 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftlcdfil.c */,
+				9FD60FEAED7440C3ADBB28E5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftmm.c */,
+				10341E80A8C04958B3D6F437 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftobjs.c */,
+				64D00D6E191045209AE04C65 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftotval.c */,
+				03946BEE0C24447987807E46 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftoutln.c */,
+				54898B5FD5384AF5AEDFBD1D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpatent.c */,
+				5E3583D999AB40A093E51CCF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftpfr.c */,
+				52CB405EC7014215960D4270 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftrfork.c */,
+				73F9245A02C44C87A5BFEA1E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsnames.c */,
+				3A5A13D4708D453D9C38992B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstream.c */,
+				ECE4061B3A814F6D95815EA6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftstroke.c */,
+				38D9E564F6BB4A66AE8BC7E9 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsynth.c */,
+				AAAC06F1AAE24C6CBBE47C90 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftsystem.c */,
+				F8301444509749AFBF6EA983 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttrigon.c */,
+				50F873C3BE8E4D28B26103F6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/fttype1.c */,
+				961F4F17B55C40568D47CDFE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftutil.c */,
+				B9875761FFFE45B5ACA0D7AD /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftwinfnt.c */,
+				BCE711C565FE450A9CC38C6D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/base/ftxf86.c */,
+				85FF491B17B64281B9231028 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bdf/bdf.c */,
+				60921242E8E34C789C10EE5E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				DF811B22B05845899CC49C8B /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cache/ftcache.c */,
+				595F2FF6F1DF405CA3B8209D /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cff/cff.c */,
+				183F33A1FE4442FA8E722B35 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/cid/type1cid.c */,
+				B8A5FC50C1384C05BDE447E2 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/gzip/ftgzip.c */,
+				3365FCC475424E55BFF4FCF6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/lzw/ftlzw.c */,
+				DE50637B3140423587471A21 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pcf/pcf.c */,
+				5BD2FCA229C34E19A66F1511 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pfr/pfr.c */,
+				D0F0296FE9DB4898877BFABF /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux/psaux.c */,
+				9F3126EFEF4D48E3809538B4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/pshinter/pshinter.c */,
+				F4B104905A99417395EBAEB6 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames/psmodule.c */,
+				7A003837F20F45DB8DAF30A1 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster/raster.c */,
+				75C29611308A41139CB9551F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt/sfnt.c */,
+				4AAE99C9C3EA463D9F9F678C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth/smooth.c */,
+				F412CE085E934C778D6B82D5 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype/truetype.c */,
+				B447B4771EF341A49B129332 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type1/type1.c */,
+				00480C4295AC4D078E0A920C /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/type42/type42.c */,
+				6A2E3F30C63C4CBAB347E8C4 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/winfonts/winfnt.c */,
+				3A1D0CB7F8974760AC8A1EF7 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/BufferUtils.cpp */,
+				BA76C45A8319436BAD496A8E /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Font.c */,
+				42F57E1E5A3A403A8D17AAF3 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/IOSGraphics.cpp */,
+				2DBB9230B274448B991B0B8F /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/Matrix4.cpp */,
+				6D213A5D273B4DDEAEE54ACE /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/PixelMap.cpp */,
+				B0C5DC6120534B2FB9BB7068 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/gdx2d.c */,
+				60BA97871D6246A0ADEDCCBA /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd.cpp */,
+				A5123D3DD437479DA02E2792 /* /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/ios/jpgd_c.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ADE543EA0054D3AB30FAB77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F4CE7E415C42B988F0A973 /* ALL_BUILD */;
+			targetProxy = 58FA440EAD9F42179DA2CC5B /* PBXContainerItemProxy */;
+		};
+		21660106F9E3430E9FDB9651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC35CB4C665E44359A771D1B /* ZERO_CHECK */;
+			targetProxy = AA206E62E1ED4235AF2DDC4F /* PBXContainerItemProxy */;
+		};
+		3DEEE55329B044D9AEEB46A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC35CB4C665E44359A771D1B /* ZERO_CHECK */;
+			targetProxy = 7059642EFD944ADA8812394F /* PBXContainerItemProxy */;
+		};
+		4DBB0DB2118348308684485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54EA9A724F38486782EEBD98 /* allnatives */;
+			targetProxy = B83EA1F5744C4A04B4C9E8F0 /* PBXContainerItemProxy */;
+		};
+		6AD808785C434022AEED8EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4F4CE7E415C42B988F0A973 /* ALL_BUILD */;
+			targetProxy = 2BC5BAE6B66A4333A63E9B18 /* PBXContainerItemProxy */;
+		};
+		8695993F840D450D8A4F76B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC35CB4C665E44359A771D1B /* ZERO_CHECK */;
+			targetProxy = 74851A6239214850BF4E3B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F908BF1DE9C440BA3FE4D1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0F9685ABAED346A29F5E3EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/include/freetype2,"/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		12149A59BE754A5DA6E49AEE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D34A259374D45CB989930F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/include/freetype2,"/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		44F955F19DD346C6BBF01051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		468E18C5716A4096A2E4A19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/build;
+			};
+			name = Release;
+		};
+		4BB9AF20F5BC4EED9D2DF7BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		54AFDF5A7949496B8DC37DF1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/include/freetype2,"/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A32D2977E5445739A387FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		65E4BF3FF92E4B1C97F05700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/build;
+			};
+			name = Debug;
+		};
+		6D32112528834C3F9F0043E7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7ED24A28D0194BF0ABB4B731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8690BCDC70214F36A7653722 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8C5B095BD2F347CDBB5442AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		9A3C3559F1204D65BC97C792 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B815D5F79E4B4BC0BA2092BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF0DE74503DB41BC8F31EF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CC90C9C2D442403AB1FD3A00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/include/freetype2,"/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/include","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4B8C56A0B8645E58E2E3641 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D5DA77474CFE4330B197739F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DAF444E264B04BF1AEDFA902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DBA6CE9FDCDF4A1494C1A3D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EC3CE354083843CE90E29394 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/build;
+			};
+			name = RelWithDebInfo;
+		};
+		EF14471571DB485D859BA313 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake/build;
+			};
+			name = MinSizeRel;
+		};
+		F56CCD3DE16841ABAB6CBC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F93951E7D7B44CD483BE1CAD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB7E795E5CC841649DB27ECC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF141FDC95F64398B4770665 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/xcode_all_natives_v2allcmake;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B565B2836B94B108379B50C /* Build configuration list for PBXAggregateTarget "dist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF444E264B04BF1AEDFA902 /* Debug */,
+				8C5B095BD2F347CDBB5442AB /* Release */,
+				D4B8C56A0B8645E58E2E3641 /* MinSizeRel */,
+				FF141FDC95F64398B4770665 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		38E215AB0C9F4684BD68EF0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DA77474CFE4330B197739F /* Debug */,
+				F56CCD3DE16841ABAB6CBC48 /* Release */,
+				8690BCDC70214F36A7653722 /* MinSizeRel */,
+				9A3C3559F1204D65BC97C792 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E3BF1C137A2433F90BAC44D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA6CE9FDCDF4A1494C1A3D5 /* Debug */,
+				44F955F19DD346C6BBF01051 /* Release */,
+				12149A59BE754A5DA6E49AEE /* MinSizeRel */,
+				F93951E7D7B44CD483BE1CAD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A9786795A7D4028BF7C882F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF0DE74503DB41BC8F31EF6E /* Debug */,
+				4BB9AF20F5BC4EED9D2DF7BC /* Release */,
+				FB7E795E5CC841649DB27ECC /* MinSizeRel */,
+				B815D5F79E4B4BC0BA2092BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C88B9E5BEC4541D3B90466F7 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A32D2977E5445739A387FB4 /* Debug */,
+				7ED24A28D0194BF0ABB4B731 /* Release */,
+				0F908BF1DE9C440BA3FE4D1E /* MinSizeRel */,
+				6D32112528834C3F9F0043E7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF4EAF6BC541427A8FD97420 /* Build configuration list for PBXNativeTarget "allnatives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9685ABAED346A29F5E3EE4 /* Debug */,
+				CC90C9C2D442403AB1FD3A00 /* Release */,
+				54AFDF5A7949496B8DC37DF1 /* MinSizeRel */,
+				3D34A259374D45CB989930F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F34AE83605CD4810ADFBE509 /* Build configuration list for PBXProject "allnativesv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E4BF3FF92E4B1C97F05700 /* Debug */,
+				468E18C5716A4096A2E4A19D /* Release */,
+				EF14471571DB485D859BA313 /* MinSizeRel */,
+				EC3CE354083843CE90E29394 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1AEFED6C9D84A12AC6EA475 /* Project object */;
+}
