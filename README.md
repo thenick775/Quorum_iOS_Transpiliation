@@ -30,7 +30,7 @@ If using different iOS versions or a different simulator they may need to be rec
 
 The gradle wrapper should automatically download the specified gradle version, and once configured will begin to compile java classes from MobiVM, the Java Standard Library, and from our Quorum source code (jdk 1.8 java bytecode).
 
-![](https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/output.png)
+<img align="center" src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/output.png" width="60%">
 
 After this process is finished, the native code ddescribed above is linked into the Quorum Application `.app` executable using clang, and all resources specified in the generated robovm.xml file are copied as well.
 
