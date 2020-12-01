@@ -31,8 +31,13 @@ The gradle wrapper should automatically download the specified gradle version, a
 
 After this process is finished, the native code ddescribed above is linked into the Quorum Application `.app` executable using clang, and all resources specified in the generated robovm.xml file are copied as well.
 
-After this has finished a simulator should launch if specified, and then the app is installed and launched on a connected device (simulator or physical).
+After this has finished a simulator should launch if specified, and then the app is installed and launched on a connected device (simulator or physical).   
     
+<p align="center"></p>  
+
 Physics3D Sample Template |  Graphics2D Sample Template
 :-------------------------:|:-------------------------:
 <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM-2.png" width="200">
+
+<p></p>
+
