@@ -24,9 +24,9 @@ All build commands were encapsulated in the [RoboVM gradle plugin](https://githu
     Note: This requires a separate xcode project for code signing, described further in the wiki
 ````
 
-In this sample project, the native c/c++ code is already generated in the form of a static archive `liballnatives.a`. This archive contains code used by Quorum applications to interface natively with iOS devices, comprising of the libGameEngineCPlugins.a, libfreetype.a, and libObjectAL.a static archive files previously used.
+In this sample project, the native C/C++/Objective-C code is already generated in the form of a static archive `liballnatives.a`. This archive contains code used by Quorum applications to interface natively with iOS devices, comprising of the libGameEngineCPlugins.a, libfreetype.a, and libObjectAL.a static archive files previously used.
 
-If using different iOS versions or a different simulator they may need to be recompiled with cmake and xcode, further instructions are available in the [native generation project readme](https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/xcode_all_natives_v2allcmake/README.md)
+If using different iOS versions or a different simulator this file may need to be recompiled with cmake and xcode, further instructions are available in the [native generation project readme](https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/xcode_all_natives_v2allcmake/README.md), and in the [wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki/Generation-of-C-language--natives)
 
 
 The gradle wrapper should automatically download the specified gradle version, and once configured will begin to compile java classes from MobiVM, the Java Standard Library, and from our Quorum source code (jdk 1.8 java bytecode).
