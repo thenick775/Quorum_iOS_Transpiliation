@@ -1,4 +1,4 @@
-# Quorum_iOS_Transpiliation
+# Quorum iOS Transpiliation
 ### Senior Project, Fall 2020, University of Nevada Las Vegas
 
 The goal of this project was to re-integrate RoboVM into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
