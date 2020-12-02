@@ -49,3 +49,4 @@ Physics3D Sample Template |  Graphics2D Sample Template
 
 </div>
 
+In depth information and a breakdown of project assembly is located in the [WIKI](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
