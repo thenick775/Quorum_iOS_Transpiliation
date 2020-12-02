@@ -18,9 +18,10 @@ All build commands were encapsulated in the [RoboVM gradle plugin](https://githu
         ./gradlew ios:launchIPhoneSimulator --info --stacktrace
 ````
 ````
-    For a connected physical device run the following command,
-    note this requires a separate xcode project for code signing, described further in the wiki:
+    For a connected physical device run the following command:
         ./gradlew ios:launchIOSDevice --info --stacktrace  
+        
+    Note: This requires a separate xcode project for code signing, described further in the wiki
 ````
 
 In this sample project, the native c/c++ code is already generated in the form of a static archive `liballnatives.a`. This archive contains code used by Quorum applications to interface natively with iOS devices, comprising of the libGameEngineCPlugins.a, libfreetype.a, and libObjectAL.a static archive files previously used.
