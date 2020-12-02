@@ -32,7 +32,7 @@ The gradle wrapper should automatically download the specified gradle version, a
 
 <div align="center">  
 
-<img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/output.png" width="60%">
+<img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/output.png" width="80%">
 
 </div>
 
