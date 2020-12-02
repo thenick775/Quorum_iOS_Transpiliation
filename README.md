@@ -1,10 +1,10 @@
 # Quorum_iOS_Transpiliation
 ### Senior Project, Fall 2020, University of Nevada Las Vegas
 
-The goal of this project was to re-integrate RoboVM into the Quorum toolchain, which previously became closed source.
+The goal of this project was to re-integrate RoboVM into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
 I used the open source fork available from MobiVM to accomplish this.
 
-All build commands were encapsulated in the RoboVM gradle plugin, allowing access to the compiler and exposing the necessary gradle build tasks.
+All build commands were encapsulated in the [RoboVM gradle plugin](https://github.com/robovm/robovm-gradle-plugin), allowing access to the RoboVM compiler and exposing the necessary gradle build tasks.
 
 ### Run Instructions:
 
