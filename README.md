@@ -19,7 +19,7 @@ All build commands were encapsulated in the [RoboVM gradle plugin](https://githu
 ````
 ````
     For a connected physical device run the following command,
-    note this requires a separate xcode project for code signing, described further in the WIKI:
+    note this requires a separate xcode project for code signing, described further in the wiki:
         ./gradlew ios:launchIOSDevice --info --stacktrace  
 ````
 
@@ -49,4 +49,4 @@ Physics3D Sample Template |  Graphics2D Sample Template
 
 </div>
 
-In depth information and a breakdown of project assembly is located in the [WIKI](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
+In depth information and a breakdown of project assembly is located in the [wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
