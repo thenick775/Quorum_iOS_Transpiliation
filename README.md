@@ -1,6 +1,8 @@
 # Quorum iOS Transpiliation
 ### Senior Project, Fall 2020, University of Nevada Las Vegas
 
+#### [Link to wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
+
 The goal of this project was to re-integrate RoboVM into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
 I used the open source fork available from MobiVM to accomplish this.
 
