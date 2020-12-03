@@ -31,7 +31,7 @@ In this sample project, the native C/C++/Objective-C code is already generated i
 If using different iOS versions or a different simulator this file may need to be recompiled with cmake and xcode, further instructions are available in the [native generation project readme](https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/xcode_all_natives_v2allcmake/README.md), and in the [wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki/Generation-of-C-language--natives)
 
 
-The gradle wrapper should automatically download the specified gradle version, and once configured will begin to compile java classes from MobiVM, the Java Standard Library, and from our Quorum source code (jdk 1.8 java bytecode).
+The gradle wrapper should automatically download the specified gradle version, and once configured, RoboVM will begin to compile java classes from MobiVM, the Java Standard Library, and from our Quorum source code (jdk 1.8 java bytecode).
 
 <div align="center">  
 
