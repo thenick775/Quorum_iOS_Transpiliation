@@ -46,9 +46,9 @@ After this has finished a simulator should launch if specified, and then the app
     
 <div align="center">  
 
-Physics3D Sample Template |  Graphics2D Sample Template  |  Live iPhone Capture
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM-2.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/liveiphonecapture.png" width="235">
+Modified Skybox  |  Physics3D Sample Template |  Graphics2D Sample Template  |  Live iPhone Capture
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/skybox.png" width="200"> | <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/Screen%20Shot%202020-10-30%20at%206.33.28%20PM-2.png" width="200"> |  <img src="https://github.com/thenick775/Quorum_iOS_Transpiliation/blob/main/graphics/liveiphonecapture.png" width="235">
 
 </div>
 
