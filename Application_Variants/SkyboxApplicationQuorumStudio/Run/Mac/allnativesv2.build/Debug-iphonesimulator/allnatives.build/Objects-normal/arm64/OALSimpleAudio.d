@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Support/SynthesizeSingleton.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALDevice.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALContext.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALListener.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALTypes.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/../Session/OALSuspendHandler.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALSource.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALSoundSource.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALBuffer.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/../Actions/OALAction.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/../Actions/../ObjectALConfig.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALChannelSource.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/ALSoundSourcePool.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./AudioTrack/OALAudioTrack.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./AudioTrack/../Actions/OALAction.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./AudioTrack/OALAudioTrackNotifications.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./AudioTrack/../Session/OALSuspendHandler.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Support/ObjectALMacros.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Support/../ObjectALConfig.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Support/OALTools.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Support/ARCSafe_MemMgmt.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./Session/OALAudioSession.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/../Session/../Support/SynthesizeSingleton.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/OpenALManager.h \
+  /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/./OpenAL/../Support/SynthesizeSingleton.h

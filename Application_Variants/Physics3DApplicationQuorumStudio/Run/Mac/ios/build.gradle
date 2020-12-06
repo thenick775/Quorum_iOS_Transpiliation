@@ -1,0 +1,13 @@
+
+sourceCompatibility = '1.8'
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+robovm {
+}
+
+dependencies {
+testImplementation 'junit:junit:4.12'
+    api files('jars/Default.jar')
+    api files('jars/QuorumStandardLibrary.jar')
+    api files('jars/QuorumStandardPlugins.jar')
+}

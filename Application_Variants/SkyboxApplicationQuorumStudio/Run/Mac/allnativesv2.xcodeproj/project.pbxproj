@@ -1,0 +1,1561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0E5F41E3E344483BB4587DA5 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7FCCF55C546443F39E55E5C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D9897EF15ED646DAAE18CF8A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		61B337CA5B7E4FE098EE005D /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1AE2EA649FB14DF2A6DDC2B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A776B2FFA2EE4122830FFABC /* CMake Rules */,
+			);
+			dependencies = (
+				E7B4705B5E064F2386E83EAE /* PBXTargetDependency */,
+				BE55C983251C4117B099A8D6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		875C622BA54A4E6B98DD93A4 /* dist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2D608835900D4A76BB7D325B /* Build configuration list for PBXAggregateTarget "dist" */;
+			buildPhases = (
+				FA947483C0C341F398605C1B /* CMake Rules */,
+			);
+			dependencies = (
+				CF0F532E0D69452187B44804 /* PBXTargetDependency */,
+			);
+			name = dist;
+			productName = dist;
+		};
+		C77BAB843A1640099185C0B8 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABB997FD3ACD46DA9BBE294C /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				12C67B79F2B2423CB07BA42F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				406DA42D3FFA4605BC89033A /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		C92B5A3B1B274EBD94BA90D8 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5D004307BE4C435780F62DB0 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				E64250E5F76746B796B99D5F /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				D6F41BE7C4554BEA86A42DCC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00ED4C5CA08C488A871E321C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXBuildFile; fileRef = A4AC29EC02D94F7C933D9F07 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */; };
+		03B528FFB4564D82A1E7D520 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = 3D0323088B344CF78AC7F1A5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */; };
+		03FC98813CA84CC5AD0DBABB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXBuildFile; fileRef = 644909D635AE4F67A4B3C702 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */; };
+		073D5426BD1E4B6F82BC9EB5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = EBA1E285E0C247F2929A7360 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */; };
+		0A9A5982C627408AB4EECE32 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */ = {isa = PBXBuildFile; fileRef = D90A0B5AE2C14959AF86B64A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */; };
+		0B472765E2AC42D48127767E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXBuildFile; fileRef = 9522DDE004AB4D299E65BE31 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */; };
+		10577F2FA421475D8487C9DD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */ = {isa = PBXBuildFile; fileRef = 15BF5ABC359F4177918AE17B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */; };
+		1411BFFC0558457AAFEBDB4F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = E935C71D2CC6466DABDD9D3B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */; };
+		1468E6DE811147159114B534 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = A4C08011759945DF8F356F2D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */; };
+		14F9F2EB98494FF980E87DBB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = 7CF54C8301F841E1A4A23928 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */; };
+		173512BAAAD9452D8D8E85F4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXBuildFile; fileRef = D65EF6A7743344F490F0B92C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */; };
+		1817C0AD594846359368524D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXBuildFile; fileRef = 2108C77BFAC345E6A7FD257B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */; };
+		1D8AC50E414246E9BF5C42EC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXBuildFile; fileRef = 23C79755B08D42EEB7F3480D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */; };
+		1EC816D133A74673BE9DBC41 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = 087BC4167775457CB1D2CC0F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */; };
+		2038C1C1DC464749BED06058 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXBuildFile; fileRef = 8B14304225D041DCA9D31E9E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */; };
+		20BC8611D14F41399A6904B0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = FBB8313DC75D443DB25D94A0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */; };
+		24EF49E227624B82A169BCE5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */ = {isa = PBXBuildFile; fileRef = 49FD6777D1A94058A3E422A1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */; };
+		276CBC5D3A464E2389C3B430 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXBuildFile; fileRef = 8AF0467722064A63A53C9C23 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */; };
+		36CC853AE3A54FA19030A312 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = F411872A9F3943848E6726F9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */; };
+		385713299A114A4CAAFBD1AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */ = {isa = PBXBuildFile; fileRef = 48DC77F6DA4A4A9DA6441D40 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */; };
+		398255DEE0B04303BFE86C0D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXBuildFile; fileRef = 35A74BA3BEEA45B2ABC28651 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */; };
+		39C654B33A7B4D0988DFAD2B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */ = {isa = PBXBuildFile; fileRef = E45884A56936408A8C6144EB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */; };
+		3C7109DAEAF248FAA74D68A4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */ = {isa = PBXBuildFile; fileRef = 96DD5CE7E2614523A079D952 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */; };
+		425FD7A9A49F4E6B965306AF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = 8BECBC15BE894051AFE17AD4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */; };
+		42635C98A0D84382A5337CBA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXBuildFile; fileRef = 7765484E431D479592984B61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */; };
+		4340D7A1F2EA456F814BD382 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = AEFCED98D29B4F3BBDF013BA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */; };
+		436EE6BB3EA64383A38D00CC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = 0B086AE724B647419B673ED9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */; };
+		4586955384C84AD4ABE741FD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = 04B2EE4716A1451A8678454F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */; };
+		461476F14D934F26ADF86EA3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXBuildFile; fileRef = FB9AE1DD31C34034A339DD2E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */; };
+		47B5F58FDAC64932B7AAE672 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = E5BFDEDD5B2C4B7891DFDAA0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */; };
+		4958FC60E8A34A34A5AC538C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = C056D1B5992E4C95BD1E70AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */; };
+		49E54ADE229348E886FD4E87 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = 8E10DAD633A34D31B2DFC987 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */; };
+		4BCE95371A5F45EAB3F5A2E0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = D319BB6F490A488E94D48000 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */; };
+		4F841E02FD684E15A130AB63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXBuildFile; fileRef = 1D6DED550A81400E83DC1CE8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */; };
+		4F8E0BCB5B4547B4BE7EF54D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = 45BFC93F80D2466C960C4461 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */; };
+		4FD208E33C894682BD5AF1E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXBuildFile; fileRef = 1DB40350824A46E7B0F0C678 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */; };
+		4FF865F08CD2401B93897DEE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXBuildFile; fileRef = 70E77EC8CB1142C99867BCB2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */; };
+		53E0405709B04762A5ED4AD2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXBuildFile; fileRef = 18A903FF9FAE4948AD87C11F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */; };
+		58C55E22657C4ED88625FFC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 719ACE93DE0840AFB86287E4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */; };
+		5A677938D2A84B70B1B3B275 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXBuildFile; fileRef = 1E8BAE43F7544A5D86939BE6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */; };
+		5BBFAE0F93494C4AA0EB246A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = 4B79EE632EE64A81845B9D65 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */; };
+		61CBA79A2DF0485E8C4F0F2C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = 1360913FA3564B3CB5E40760 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */; };
+		6685609B771E4678B5211626 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXBuildFile; fileRef = C1F9C0E8E1764FA0937F6267 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */; };
+		69314510D055420ABD1BEBC7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = AD87C99BDA7348E49D76D921 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */; };
+		695C37D30ADA456AB7867771 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = D68D85C328074B91BF88CDC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */; };
+		6B93500443004F0680827BCE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXBuildFile; fileRef = 9AFB27B8DD6044F4B99C27C2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */; };
+		6BF1EAAD31E84F6F8B3A9962 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */ = {isa = PBXBuildFile; fileRef = FFA373AAC4AC48A287945BA8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */; };
+		6C080F17AC30466A86001302 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = 675420770AC2459D8B96E0F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */; };
+		6FBBB0CC3D75483EBDDA32B2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */ = {isa = PBXBuildFile; fileRef = 076614411E2847D381C51AC3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */; };
+		72ACD98A36C24138A8E41AE8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = AC371B59FFBB4704A6AB13C1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */; };
+		770A9B27D0664A4B8BC4045E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */ = {isa = PBXBuildFile; fileRef = 89A979E1F49C4623B3B39501 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */; };
+		773D34DAB6C641149C8395D2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = 5818F936D387437FAC837974 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */; };
+		79B1FAC0344F444182F96B29 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = 2FF890FE8B6647D393F664A7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */; };
+		7E41DC975DA246F0BFEC1DC7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXBuildFile; fileRef = AE667DB34FC348079CC15234 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */; };
+		7EF35DAD7D574EF58236C894 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = EA8F8AB443A744CA8FBC0EAB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */; };
+		80C87969FEF04F9BA4547DB7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = 05B5DE2579DD46678C863748 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */; };
+		8231F59F80CA43DA956DA7D8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = 0043CE4ECA8544B4A95B7EFD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */; };
+		8292D854DF4F42678E0DCBB5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 9ED18D9F570844A082D3776F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */; };
+		8422CD2CA378449983C66EC4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXBuildFile; fileRef = 5C78AFF3A395467C8AFD5E86 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */; };
+		84345C6DFAA543058116B029 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXBuildFile; fileRef = AB0BAF8A023E47A8B6EABC63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */; };
+		8453F3B45F8749FF8E7F7175 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXBuildFile; fileRef = 644F24E54D404772B4507E61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */; };
+		847311B30B134A5DB5F7026F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXBuildFile; fileRef = 00C63C86A91949D8ADB72596 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */; };
+		84ABAEC5074341A1A48530D9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXBuildFile; fileRef = 1C45376EEE0F4D098D205673 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */; };
+		85867BF6D1A54D65B79949FF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXBuildFile; fileRef = B38C4885C4D244AB908D5396 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */; };
+		872D37B6630A410DB1392351 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = 49A3D913002D48A787284067 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */; };
+		8B0BF1105DCE49778995E8CD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = 1E4D0351C2584A94A259F35E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */; };
+		8B1B17B19B5A45AEA66C3A12 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = E4F25D1FF65B47E6BFE2A0CD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */; };
+		8B349F749DB14B18AF40040F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXBuildFile; fileRef = 8C6A6653AD5D4A13A2A0F565 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */; };
+		8E56CD14FCD7418190583079 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXBuildFile; fileRef = 52F676DC229B42D6AAF13064 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */; };
+		906F0E28D75F4A6B80620FBB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXBuildFile; fileRef = 476177CC4FCF4885883783D9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */; };
+		90A11D95AD4C48C6A90AC9D8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXBuildFile; fileRef = 8E76B660AFAF4177AD20F551 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */; };
+		90D9239E8B394846873C13E5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXBuildFile; fileRef = C7746B7654FC43BFABE7B619 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */; };
+		94B1924065434D5F8C27538E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = 805857AC84174C4392E892E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */; };
+		976B0EFE717E45FE918C463C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = E8C334E2DBEC4F9FAA287C51 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */; };
+		9B18BE169134407BBBF817A8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = 9D1DC06677B041CC899F3F7C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */; };
+		9B43E5C3A1F943BCB9D18553 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = 177689E7695C4EB686AB0B90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */; };
+		9EF15EDF8E7E47A09F23C247 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = C3B079818CA94A4CBE025C63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */; };
+		A081B45FAFF14AD988D1D7DB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */ = {isa = PBXBuildFile; fileRef = 74FD7752865640C2B9D83F68 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */; };
+		A1AF6180F76D45B0B3B6A9AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */ = {isa = PBXBuildFile; fileRef = 0F8A6363D5644971867A4BC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */; };
+		A3B94DEDDF3C4678B5144DE1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXBuildFile; fileRef = 1EED0C55D7644F44AC75B891 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */; };
+		A3DD59881A52426F8AF96C86 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */ = {isa = PBXBuildFile; fileRef = 53607E2C8CAC4F5AA3F4F41D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */; };
+		A4DF835E9F7F4D8CA5EA9676 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = D0A6B6A2DC5D4594BD012444 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */; };
+		ACD761C967644C8CAEAE9B46 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = 5054679CA6424463B9D24D55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */; };
+		AD476CD8A0E54A3297D20A35 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */ = {isa = PBXBuildFile; fileRef = DC73EC22FD4B4428A802FFC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */; };
+		B02FCCC097F94479803D3C9F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXBuildFile; fileRef = 788DE0F5DA4D448EAF030F1C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */; };
+		B2E8EB805BDE41798DB9979F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */ = {isa = PBXBuildFile; fileRef = 2F0BDFAE262440F5A96F155F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */; };
+		B547ED73F5E74BD287EC7FF0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = 5D1DCAB66AC04A05ADF115AD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */; };
+		B82E9E3976C44D9FAFB6F9EF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXBuildFile; fileRef = 636951914A27403497E643A3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */; };
+		B96CCEC213344D95A176CD4E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = F71E8A32DE0A45C4BA0C5D11 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */; };
+		BAA99EDA35ED44F0B0EC0CFA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */ = {isa = PBXBuildFile; fileRef = FE9599A00B834D1CB7C2D27C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */; };
+		BF302BBEC90E46158D939AEF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = 7C981E2D7ABE4DC1BB652448 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */; };
+		BFDDC1CE2156407FA427D6DC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = 7DD2C34C1AFE4B23BF6D5041 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */; };
+		C23AE2FEF05045C197D25A48 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = ABD5594159DC4AC3957A03E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */; };
+		C27B2E20CC2247BB978C913C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXBuildFile; fileRef = 8D80FA6816CB40678BE1F3B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */; };
+		C672F1F1136746BCB0F04D76 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = 0CA253D27EA943CBB027647C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */; };
+		C7DD6D706E354ECE8EFFF6BB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = AB4C49F3A38F48AB8C64B88F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */; };
+		C8065AFA7FB84994B67B7E7E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXBuildFile; fileRef = 710BA8C032B24F6A9B674861 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */; };
+		CBE15D44362B498F8A56BDB6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = 5DED1009AC8F4A5EB388B5F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */; };
+		CCAECDED423841FDA08B25DF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXBuildFile; fileRef = 87D9BD0833354635B9B0D077 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */; };
+		CCCF3762EE6548BA84A17635 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXBuildFile; fileRef = AFB42A33D6634C8088757775 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */; };
+		CF52F7F987F545708AF5567D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = C34059048106461B8697E3EC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */; };
+		D0F248CC219D4A95A0FF9CE7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = 8884B66DC649437DAA49E49D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */; };
+		D2BA2F81D228435A9E46E677 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = 149F99291F43483BACBBB88A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */; };
+		D365E014420D41CB92720F69 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = 4A7A539BF8204293B47D9FC6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */; };
+		D4873E4461474E15AE353E69 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = DFCC38FA16994027BDEE6CBC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */; };
+		D48C21231FAF4220AF89D233 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 55F1E5CFB7DA4CDE8B6B4E90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */; };
+		D54121F52DC34A94A0EE9C48 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = B3A56DE1EF0C45A7B916B12F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */; };
+		D5F922B75D8D4F2EB31F9F8D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = C5D4D309F6654CCCA20D13AE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */; };
+		D645F8661A254223AABFB3BD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */ = {isa = PBXBuildFile; fileRef = C5AFAAB10F774763AC85417C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */; };
+		D7315D27D83D42C089FCA486 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = 06B9FE2224EF4B51B50EC232 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */; };
+		DB2A847516BD4B93A8462A68 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = 41B73C2B844943EC83836286 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */; };
+		DEF1D3CA104242CC96BA6B6F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = 8E58794FE17F43C1AD9670C0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */; };
+		E15B424B1AF84B72864C0493 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXBuildFile; fileRef = 7C949B33D9FD4326A9755AA2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */; };
+		E5A66B0737AE48FB89A89967 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = 7523F83C2D8C446AA9E7D087 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */; };
+		E6FD287EA92C469B82FD92A6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXBuildFile; fileRef = CBB4E86556CB4C32873E8EC1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */; };
+		ECB48EF107D04846A0230286 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = 1C810D3E6D1B482ABA3FA268 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */; };
+		EE5C30D3FD6D433E8EED7990 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = 7FFFF4CE7A1E486697EB8A55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */; };
+		F07A3369DBFD4DC784DD31A7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = 705DB7A7A162442BB015F9B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */; };
+		F12B4458FC774ACB8F00DEA1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXBuildFile; fileRef = 9B3F4BF5CE0A4AC685E64563 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */; };
+		F5B9C6B17C584A5DAFA78163 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */ = {isa = PBXBuildFile; fileRef = 669D2A632A9443D58D108720 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */; };
+		F71E06F881D543E0AE609425 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 7C5492DEDD7441189349361F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */; };
+		FA14AE72015E455086CD5832 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXBuildFile; fileRef = 5E59898BDAAE499A8A45D656 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		20DB267D853F458EAC961BD9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		50DC38BB3AD54CBC9E3BA448 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7B6E4083FACA4955ADAE1AFF /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F42F952CCB0C4148B58523A9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		36147447D6624BC7B504F2A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E5F41E3E344483BB4587DA5;
+			remoteInfo = ZERO_CHECK;
+		};
+		4686B99B8CEA4CEBAC773DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E5F41E3E344483BB4587DA5;
+			remoteInfo = ZERO_CHECK;
+		};
+		4A57D91A01BA47A8B0729D92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B337CA5B7E4FE098EE005D;
+			remoteInfo = ALL_BUILD;
+		};
+		75A90C887EB5404E943355A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 473FC54F04374376BB5AAD46;
+			remoteInfo = allnatives;
+		};
+		A71402D8D3744FB88EE4374B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E5F41E3E344483BB4587DA5;
+			remoteInfo = ZERO_CHECK;
+		};
+		FDD24FD362794C9F987CC7A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD53162E6B274B9D98F7A99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61B337CA5B7E4FE098EE005D;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0043CE4ECA8544B4A95B7EFD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = include/internal/autohint.h; sourceTree = SOURCE_ROOT; };
+		00C63C86A91949D8ADB72596 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftxf86.c; path = src/base/ftxf86.c; sourceTree = SOURCE_ROOT; };
+		04B2EE4716A1451A8678454F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = include/internal/ftcalc.h; sourceTree = SOURCE_ROOT; };
+		05B5DE2579DD46678C863748 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = include/internal/ftstream.h; sourceTree = SOURCE_ROOT; };
+		06B9FE2224EF4B51B50EC232 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = src/truetype/truetype.c; sourceTree = SOURCE_ROOT; };
+		076614411E2847D381C51AC3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IOSVersion.h; path = ../ObjectAL/Support/IOSVersion.h; sourceTree = SOURCE_ROOT; };
+		087BC4167775457CB1D2CC0F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = include/internal/ftvalid.h; sourceTree = SOURCE_ROOT; };
+		0B086AE724B647419B673ED9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = src/base/ftdebug.c; sourceTree = SOURCE_ROOT; };
+		0CA253D27EA943CBB027647C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = src/base/ftgasp.c; sourceTree = SOURCE_ROOT; };
+		0F8A6363D5644971867A4BC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALTools.m; path = ../ObjectAL/Support/OALTools.m; sourceTree = SOURCE_ROOT; };
+		1360913FA3564B3CB5E40760 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = src/base/ftgxval.c; sourceTree = SOURCE_ROOT; };
+		149F99291F43483BACBBB88A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = src/cff/cff.c; sourceTree = SOURCE_ROOT; };
+		15BF5ABC359F4177918AE17B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd_c.cpp; path = ../ios/jpgd_c.cpp; sourceTree = SOURCE_ROOT; };
+		177689E7695C4EB686AB0B90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = include/internal/sfnt.h; sourceTree = SOURCE_ROOT; };
+		18A903FF9FAE4948AD87C11F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftadvanc.c; path = src/base/ftadvanc.c; sourceTree = SOURCE_ROOT; };
+		1C45376EEE0F4D098D205673 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsnames.c; path = src/base/ftsnames.c; sourceTree = SOURCE_ROOT; };
+		1C810D3E6D1B482ABA3FA268 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		1D6DED550A81400E83DC1CE8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = include/internal/ftdriver.h; sourceTree = SOURCE_ROOT; };
+		1DB40350824A46E7B0F0C678 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALAudioFile.h; path = ../ObjectAL/Support/OALAudioFile.h; sourceTree = SOURCE_ROOT; };
+		1E4D0351C2584A94A259F35E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = include/config/ftheader.h; sourceTree = SOURCE_ROOT; };
+		1E8BAE43F7544A5D86939BE6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthesizeSingleton.h; path = ../ObjectAL/Support/SynthesizeSingleton.h; sourceTree = SOURCE_ROOT; };
+		1EED0C55D7644F44AC75B891 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttrigon.c; path = src/base/fttrigon.c; sourceTree = SOURCE_ROOT; };
+		2108C77BFAC345E6A7FD257B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioActions.m; path = ../ObjectAL/Actions/OALAudioActions.m; sourceTree = SOURCE_ROOT; };
+		23C79755B08D42EEB7F3480D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARCSafe_MemMgmt.h; path = ../ObjectAL/Support/ARCSafe_MemMgmt.h; sourceTree = SOURCE_ROOT; };
+		2F0BDFAE262440F5A96F155F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mach_timing.h; path = ../ObjectAL/Support/mach_timing.h; sourceTree = SOURCE_ROOT; };
+		2FF890FE8B6647D393F664A7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = include/config/ftoption.h; sourceTree = SOURCE_ROOT; };
+		35A74BA3BEEA45B2ABC28651 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FreeTypeStrategy.c; path = src/base/FreeTypeStrategy.c; sourceTree = SOURCE_ROOT; };
+		3D0323088B344CF78AC7F1A5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = include/internal/ftrfork.h; sourceTree = SOURCE_ROOT; };
+		41B73C2B844943EC83836286 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = include/config/ftstdlib.h; sourceTree = SOURCE_ROOT; };
+		45BFC93F80D2466C960C4461 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = src/base/ftbbox.c; sourceTree = SOURCE_ROOT; };
+		476177CC4FCF4885883783D9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALUtilityActions.m; path = ../ObjectAL/Actions/OALUtilityActions.m; sourceTree = SOURCE_ROOT; };
+		48DC77F6DA4A4A9DA6441D40 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALTools.h; path = ../ObjectAL/Support/OALTools.h; sourceTree = SOURCE_ROOT; };
+		49A3D913002D48A787284067 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = src/winfonts/winfnt.c; sourceTree = SOURCE_ROOT; };
+		49FD6777D1A94058A3E422A1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix4.cpp; path = ../ios/Matrix4.cpp; sourceTree = SOURCE_ROOT; };
+		4A7A539BF8204293B47D9FC6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = src/base/ftfstype.c; sourceTree = SOURCE_ROOT; };
+		4B79EE632EE64A81845B9D65 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = src/base/ftpfr.c; sourceTree = SOURCE_ROOT; };
+		5054679CA6424463B9D24D55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = src/smooth/smooth.c; sourceTree = SOURCE_ROOT; };
+		52F676DC229B42D6AAF13064 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioSession.m; path = ../ObjectAL/Session/OALAudioSession.m; sourceTree = SOURCE_ROOT; };
+		53607E2C8CAC4F5AA3F4F41D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALNotifications.h; path = ../ObjectAL/Support/OALNotifications.h; sourceTree = SOURCE_ROOT; };
+		55F1E5CFB7DA4CDE8B6B4E90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = src/type1/type1.c; sourceTree = SOURCE_ROOT; };
+		5818F936D387437FAC837974 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = src/base/ftwinfnt.c; sourceTree = SOURCE_ROOT; };
+		5C78AFF3A395467C8AFD5E86 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALBuffer.m; path = ../ObjectAL/OpenAL/ALBuffer.m; sourceTree = SOURCE_ROOT; };
+		5D1DCAB66AC04A05ADF115AD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = include/internal/ftmemory.h; sourceTree = SOURCE_ROOT; };
+		5DED1009AC8F4A5EB388B5F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = src/bdf/bdf.c; sourceTree = SOURCE_ROOT; };
+		5E59898BDAAE499A8A45D656 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftutil.c; path = src/base/ftutil.c; sourceTree = SOURCE_ROOT; };
+		636951914A27403497E643A3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTracks.m; path = ../ObjectAL/AudioTrack/OALAudioTracks.m; sourceTree = SOURCE_ROOT; };
+		644909D635AE4F67A4B3C702 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psmodule.c; path = src/psnames/psmodule.c; sourceTree = SOURCE_ROOT; };
+		644F24E54D404772B4507E61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSource.m; path = ../ObjectAL/OpenAL/ALSource.m; sourceTree = SOURCE_ROOT; };
+		669D2A632A9443D58D108720 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BufferUtils.cpp; path = ../ios/BufferUtils.cpp; sourceTree = SOURCE_ROOT; };
+		675420770AC2459D8B96E0F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = include/internal/ftdebug.h; sourceTree = SOURCE_ROOT; };
+		705DB7A7A162442BB015F9B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableArray+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		70E77EC8CB1142C99867BCB2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgloadr.c; path = src/base/ftgloadr.c; sourceTree = SOURCE_ROOT; };
+		710BA8C032B24F6A9B674861 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftobjs.c; path = src/base/ftobjs.c; sourceTree = SOURCE_ROOT; };
+		719ACE93DE0840AFB86287E4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		74FD7752865640C2B9D83F68 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = IOSVersion.m; path = ../ObjectAL/Support/IOSVersion.m; sourceTree = SOURCE_ROOT; };
+		7523F83C2D8C446AA9E7D087 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = include/internal/fttrace.h; sourceTree = SOURCE_ROOT; };
+		7765484E431D479592984B61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrack.m; path = ../ObjectAL/AudioTrack/OALAudioTrack.m; sourceTree = SOURCE_ROOT; };
+		788DE0F5DA4D448EAF030F1C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioFile.m; path = ../ObjectAL/Support/OALAudioFile.m; sourceTree = SOURCE_ROOT; };
+		7C5492DEDD7441189349361F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = include/internal/t1types.h; sourceTree = SOURCE_ROOT; };
+		7C949B33D9FD4326A9755AA2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdbgmem.c; path = src/base/ftdbgmem.c; sourceTree = SOURCE_ROOT; };
+		7C981E2D7ABE4DC1BB652448 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = src/base/ftpatent.c; sourceTree = SOURCE_ROOT; };
+		7CF54C8301F841E1A4A23928 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = src/base/ftglyph.c; sourceTree = SOURCE_ROOT; };
+		7DD2C34C1AFE4B23BF6D5041 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = src/autofit/autofit.c; sourceTree = SOURCE_ROOT; };
+		7EBD801FBA384DC287A26416 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7FFFF4CE7A1E486697EB8A55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = src/base/ftsystem.c; sourceTree = SOURCE_ROOT; };
+		805857AC84174C4392E892E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = src/base/ftstroke.c; sourceTree = SOURCE_ROOT; };
+		87D9BD0833354635B9B0D077 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjectALMacros.h; path = ../ObjectAL/Support/ObjectALMacros.h; sourceTree = SOURCE_ROOT; };
+		8884B66DC649437DAA49E49D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = src/sfnt/sfnt.c; sourceTree = SOURCE_ROOT; };
+		89A979E1F49C4623B3B39501 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gdx2d.c; path = ../ios/gdx2d.c; sourceTree = SOURCE_ROOT; };
+		8AF0467722064A63A53C9C23 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlcdfil.c; path = src/base/ftlcdfil.c; sourceTree = SOURCE_ROOT; };
+		8B14304225D041DCA9D31E9E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OpenALManager.m; path = ../ObjectAL/OpenAL/OpenALManager.m; sourceTree = SOURCE_ROOT; };
+		8BECBC15BE894051AFE17AD4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = src/cid/type1cid.c; sourceTree = SOURCE_ROOT; };
+		8C6A6653AD5D4A13A2A0F565 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALContext.m; path = ../ObjectAL/OpenAL/ALContext.m; sourceTree = SOURCE_ROOT; };
+		8D80FA6816CB40678BE1F3B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALListener.m; path = ../ObjectAL/OpenAL/ALListener.m; sourceTree = SOURCE_ROOT; };
+		8E10DAD633A34D31B2DFC987 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = src/base/fttype1.c; sourceTree = SOURCE_ROOT; };
+		8E58794FE17F43C1AD9670C0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = src/bzip2/ftbzip2.c; sourceTree = SOURCE_ROOT; };
+		8E76B660AFAF4177AD20F551 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALActionManager.m; path = ../ObjectAL/Actions/OALActionManager.m; sourceTree = SOURCE_ROOT; };
+		9522DDE004AB4D299E65BE31 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALWrapper.m; path = ../ObjectAL/OpenAL/ALWrapper.m; sourceTree = SOURCE_ROOT; };
+		96DD5CE7E2614523A079D952 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSimpleAudio.m; path = ../ObjectAL/OALSimpleAudio.m; sourceTree = SOURCE_ROOT; };
+		9AFB27B8DD6044F4B99C27C2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = include/internal/internal.h; sourceTree = SOURCE_ROOT; };
+		9B3F4BF5CE0A4AC685E64563 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpic.h; path = include/internal/ftpic.h; sourceTree = SOURCE_ROOT; };
+		9D1DC06677B041CC899F3F7C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = src/base/ftbitmap.c; sourceTree = SOURCE_ROOT; };
+		9ED18D9F570844A082D3776F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = src/cache/ftcache.c; sourceTree = SOURCE_ROOT; };
+		A4AC29EC02D94F7C933D9F07 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALCaptureDevice.m; path = ../ObjectAL/OpenAL/ALCaptureDevice.m; sourceTree = SOURCE_ROOT; };
+		A4C08011759945DF8F356F2D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = include/internal/ftserv.h; sourceTree = SOURCE_ROOT; };
+		AB0BAF8A023E47A8B6EABC63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcalc.c; path = src/base/ftcalc.c; sourceTree = SOURCE_ROOT; };
+		AB4C49F3A38F48AB8C64B88F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = src/base/ftsynth.c; sourceTree = SOURCE_ROOT; };
+		ABD5594159DC4AC3957A03E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = src/base/ftbdf.c; sourceTree = SOURCE_ROOT; };
+		AC371B59FFBB4704A6AB13C1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = include/internal/psaux.h; sourceTree = SOURCE_ROOT; };
+		AD87C99BDA7348E49D76D921 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = src/lzw/ftlzw.c; sourceTree = SOURCE_ROOT; };
+		AE667DB34FC348079CC15234 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSuspendHandler.m; path = ../ObjectAL/Session/OALSuspendHandler.m; sourceTree = SOURCE_ROOT; };
+		AEFCED98D29B4F3BBDF013BA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		AFB42A33D6634C8088757775 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstream.c; path = src/base/ftstream.c; sourceTree = SOURCE_ROOT; };
+		B38C4885C4D244AB908D5396 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftoutln.c; path = src/base/ftoutln.c; sourceTree = SOURCE_ROOT; };
+		B3A56DE1EF0C45A7B916B12F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = src/raster/raster.c; sourceTree = SOURCE_ROOT; };
+		C056D1B5992E4C95BD1E70AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = include/config/ftconfig.h; sourceTree = SOURCE_ROOT; };
+		C1F9C0E8E1764FA0937F6267 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALChannelSource.m; path = ../ObjectAL/OpenAL/ALChannelSource.m; sourceTree = SOURCE_ROOT; };
+		C319C27676C246929976AC2A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C34059048106461B8697E3EC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = include/internal/ftobjs.h; sourceTree = SOURCE_ROOT; };
+		C3B079818CA94A4CBE025C63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = include/internal/pshints.h; sourceTree = SOURCE_ROOT; };
+		C5AFAAB10F774763AC85417C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOSGraphics.cpp; path = ../ios/IOSGraphics.cpp; sourceTree = SOURCE_ROOT; };
+		C5D4D309F6654CCCA20D13AE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = include/internal/ftgloadr.h; sourceTree = SOURCE_ROOT; };
+		C7746B7654FC43BFABE7B619 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALDevice.m; path = ../ObjectAL/OpenAL/ALDevice.m; sourceTree = SOURCE_ROOT; };
+		CBB4E86556CB4C32873E8EC1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftrfork.c; path = src/base/ftrfork.c; sourceTree = SOURCE_ROOT; };
+		D0A6B6A2DC5D4594BD012444 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = src/pfr/pfr.c; sourceTree = SOURCE_ROOT; };
+		D319BB6F490A488E94D48000 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = src/pcf/pcf.c; sourceTree = SOURCE_ROOT; };
+		D65EF6A7743344F490F0B92C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrackNotifications.m; path = ../ObjectAL/AudioTrack/OALAudioTrackNotifications.m; sourceTree = SOURCE_ROOT; };
+		D68D85C328074B91BF88CDC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = src/base/ftotval.c; sourceTree = SOURCE_ROOT; };
+		D90A0B5AE2C14959AF86B64A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelMap.cpp; path = ../ios/PixelMap.cpp; sourceTree = SOURCE_ROOT; };
+		DC73EC22FD4B4428A802FFC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Font.c; path = ../ios/Font.c; sourceTree = SOURCE_ROOT; };
+		DFCC38FA16994027BDEE6CBC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = include/config/ftmodule.h; sourceTree = SOURCE_ROOT; };
+		E1DAA628A09C4E14A2A20AC6 /* allnatives */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liballnatives.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45884A56936408A8C6144EB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd.cpp; path = ../ios/jpgd.cpp; sourceTree = SOURCE_ROOT; };
+		E4F25D1FF65B47E6BFE2A0CD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = src/base/ftmm.c; sourceTree = SOURCE_ROOT; };
+		E5BFDEDD5B2C4B7891DFDAA0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = include/internal/tttypes.h; sourceTree = SOURCE_ROOT; };
+		E8C334E2DBEC4F9FAA287C51 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableArray+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		E935C71D2CC6466DABDD9D3B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = src/psaux/psaux.c; sourceTree = SOURCE_ROOT; };
+		EA8F8AB443A744CA8FBC0EAB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = src/type42/type42.c; sourceTree = SOURCE_ROOT; };
+		EBA1E285E0C247F2929A7360 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = src/pshinter/pshinter.c; sourceTree = SOURCE_ROOT; };
+		F411872A9F3943848E6726F9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = src/base/ftinit.c; sourceTree = SOURCE_ROOT; };
+		F71E8A32DE0A45C4BA0C5D11 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = src/gzip/ftgzip.c; sourceTree = SOURCE_ROOT; };
+		FB9AE1DD31C34034A339DD2E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSoundSourcePool.m; path = ../ObjectAL/OpenAL/ALSoundSourcePool.m; sourceTree = SOURCE_ROOT; };
+		FBB8313DC75D443DB25D94A0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = src/base/ftcid.c; sourceTree = SOURCE_ROOT; };
+		FE9599A00B834D1CB7C2D27C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_timing.c; path = ../ObjectAL/Support/mach_timing.c; sourceTree = SOURCE_ROOT; };
+		FFA373AAC4AC48A287945BA8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAction.m; path = ../ObjectAL/Actions/OALAction.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		030C049A41234DFF9769DB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DAA628A09C4E14A2A20AC6 /* allnatives */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C7D6B45B464B41BB573EDC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		22A593D22AAE44E0858E1C54 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C79755B08D42EEB7F3480D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */,
+				076614411E2847D381C51AC3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */,
+				705DB7A7A162442BB015F9B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */,
+				AEFCED98D29B4F3BBDF013BA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */,
+				1DB40350824A46E7B0F0C678 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */,
+				53607E2C8CAC4F5AA3F4F41D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */,
+				48DC77F6DA4A4A9DA6441D40 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */,
+				87D9BD0833354635B9B0D077 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */,
+				1E8BAE43F7544A5D86939BE6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */,
+				2F0BDFAE262440F5A96F155F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */,
+				C056D1B5992E4C95BD1E70AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */,
+				1E4D0351C2584A94A259F35E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */,
+				DFCC38FA16994027BDEE6CBC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */,
+				2FF890FE8B6647D393F664A7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */,
+				41B73C2B844943EC83836286 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */,
+				0043CE4ECA8544B4A95B7EFD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */,
+				04B2EE4716A1451A8678454F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */,
+				675420770AC2459D8B96E0F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */,
+				1D6DED550A81400E83DC1CE8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */,
+				C5D4D309F6654CCCA20D13AE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */,
+				5D1DCAB66AC04A05ADF115AD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */,
+				C34059048106461B8697E3EC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */,
+				9B3F4BF5CE0A4AC685E64563 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */,
+				3D0323088B344CF78AC7F1A5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */,
+				A4C08011759945DF8F356F2D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */,
+				05B5DE2579DD46678C863748 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */,
+				7523F83C2D8C446AA9E7D087 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */,
+				087BC4167775457CB1D2CC0F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */,
+				9AFB27B8DD6044F4B99C27C2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */,
+				AC371B59FFBB4704A6AB13C1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */,
+				C3B079818CA94A4CBE025C63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */,
+				177689E7695C4EB686AB0B90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */,
+				7C5492DEDD7441189349361F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */,
+				E5BFDEDD5B2C4B7891DFDAA0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		986FDAEB66DC46B8B7E72BB7 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				04C7D6B45B464B41BB573EDC /* CMake Rules */,
+				C319C27676C246929976AC2A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = dist;
+			sourceTree = "<group>";
+		};
+		9B2E95FDABB243D4B3BB8234 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C1AC41E17E34485189D15A26 /* allnatives */ = {
+			isa = PBXGroup;
+			children = (
+				22A593D22AAE44E0858E1C54 /* Header Files */,
+				C6C772C9B59249BBB1A4DA27 /* Source Files */,
+				719ACE93DE0840AFB86287E4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = allnatives;
+			sourceTree = "<group>";
+		};
+		C224C0F5B429414E99AADC10 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E95FDABB243D4B3BB8234 /* CMake Rules */,
+				7EBD801FBA384DC287A26416 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C6C772C9B59249BBB1A4DA27 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA373AAC4AC48A287945BA8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */,
+				8E76B660AFAF4177AD20F551 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */,
+				2108C77BFAC345E6A7FD257B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */,
+				476177CC4FCF4885883783D9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */,
+				7765484E431D479592984B61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				D65EF6A7743344F490F0B92C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				636951914A27403497E643A3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				96DD5CE7E2614523A079D952 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */,
+				5C78AFF3A395467C8AFD5E86 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */,
+				A4AC29EC02D94F7C933D9F07 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				C1F9C0E8E1764FA0937F6267 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */,
+				8C6A6653AD5D4A13A2A0F565 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */,
+				C7746B7654FC43BFABE7B619 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */,
+				8D80FA6816CB40678BE1F3B1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */,
+				FB9AE1DD31C34034A339DD2E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				644F24E54D404772B4507E61 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */,
+				9522DDE004AB4D299E65BE31 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */,
+				8B14304225D041DCA9D31E9E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */,
+				52F676DC229B42D6AAF13064 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */,
+				AE667DB34FC348079CC15234 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */,
+				74FD7752865640C2B9D83F68 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */,
+				E8C334E2DBEC4F9FAA287C51 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				1C810D3E6D1B482ABA3FA268 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				788DE0F5DA4D448EAF030F1C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */,
+				0F8A6363D5644971867A4BC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */,
+				FE9599A00B834D1CB7C2D27C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */,
+				7DD2C34C1AFE4B23BF6D5041 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */,
+				35A74BA3BEEA45B2ABC28651 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				18A903FF9FAE4948AD87C11F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */,
+				45BFC93F80D2466C960C4461 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */,
+				ABD5594159DC4AC3957A03E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */,
+				9D1DC06677B041CC899F3F7C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */,
+				AB0BAF8A023E47A8B6EABC63 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */,
+				FBB8313DC75D443DB25D94A0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */,
+				7C949B33D9FD4326A9755AA2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */,
+				0B086AE724B647419B673ED9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */,
+				4A7A539BF8204293B47D9FC6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */,
+				0CA253D27EA943CBB027647C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */,
+				70E77EC8CB1142C99867BCB2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */,
+				7CF54C8301F841E1A4A23928 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */,
+				1360913FA3564B3CB5E40760 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */,
+				F411872A9F3943848E6726F9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */,
+				8AF0467722064A63A53C9C23 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */,
+				E4F25D1FF65B47E6BFE2A0CD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */,
+				710BA8C032B24F6A9B674861 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */,
+				D68D85C328074B91BF88CDC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */,
+				B38C4885C4D244AB908D5396 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */,
+				7C981E2D7ABE4DC1BB652448 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */,
+				4B79EE632EE64A81845B9D65 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */,
+				CBB4E86556CB4C32873E8EC1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */,
+				1C45376EEE0F4D098D205673 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */,
+				AFB42A33D6634C8088757775 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */,
+				805857AC84174C4392E892E2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */,
+				AB4C49F3A38F48AB8C64B88F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */,
+				7FFFF4CE7A1E486697EB8A55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */,
+				1EED0C55D7644F44AC75B891 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */,
+				8E10DAD633A34D31B2DFC987 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */,
+				5E59898BDAAE499A8A45D656 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */,
+				5818F936D387437FAC837974 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */,
+				00C63C86A91949D8ADB72596 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */,
+				5DED1009AC8F4A5EB388B5F1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */,
+				8E58794FE17F43C1AD9670C0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				9ED18D9F570844A082D3776F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */,
+				149F99291F43483BACBBB88A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */,
+				8BECBC15BE894051AFE17AD4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */,
+				F71E8A32DE0A45C4BA0C5D11 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */,
+				AD87C99BDA7348E49D76D921 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */,
+				D319BB6F490A488E94D48000 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */,
+				D0A6B6A2DC5D4594BD012444 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */,
+				E935C71D2CC6466DABDD9D3B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */,
+				EBA1E285E0C247F2929A7360 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */,
+				644909D635AE4F67A4B3C702 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */,
+				B3A56DE1EF0C45A7B916B12F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */,
+				8884B66DC649437DAA49E49D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */,
+				5054679CA6424463B9D24D55 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */,
+				06B9FE2224EF4B51B50EC232 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */,
+				55F1E5CFB7DA4CDE8B6B4E90 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */,
+				EA8F8AB443A744CA8FBC0EAB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */,
+				49A3D913002D48A787284067 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */,
+				669D2A632A9443D58D108720 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */,
+				DC73EC22FD4B4428A802FFC5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */,
+				C5AFAAB10F774763AC85417C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */,
+				49FD6777D1A94058A3E422A1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */,
+				D90A0B5AE2C14959AF86B64A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */,
+				89A979E1F49C4623B3B39501 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */,
+				E45884A56936408A8C6144EB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */,
+				15BF5ABC359F4177918AE17B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DC98A3F5CDB243EF9DBFAABD = {
+			isa = PBXGroup;
+			children = (
+				986FDAEB66DC46B8B7E72BB7 /* dist */,
+				C1AC41E17E34485189D15A26 /* allnatives */,
+				C224C0F5B429414E99AADC10 /* ALL_BUILD */,
+				030C049A41234DFF9769DB77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473FC54F04374376BB5AAD46 /* allnatives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00CB2C4466894C0E88E3C942 /* Build configuration list for PBXNativeTarget "allnatives" */;
+			buildPhases = (
+				8ADB05D9BE2F4E168BAE62BD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B123F229476145AFA0BA78F3 /* PBXTargetDependency */,
+			);
+			name = allnatives;
+			productName = allnatives;
+			productReference = E1DAA628A09C4E14A2A20AC6 /* allnatives */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD53162E6B274B9D98F7A99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1220;
+			};
+			buildConfigurationList = 7456D9C9CFD24C64B1641B5C /* Build configuration list for PBXProject "allnativesv2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7B6E4083FACA4955ADAE1AFF /* Debug */,
+				F42F952CCB0C4148B58523A9 /* Release */,
+				50DC38BB3AD54CBC9E3BA448 /* MinSizeRel */,
+				20DB267D853F458EAC961BD9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = DC98A3F5CDB243EF9DBFAABD;
+			projectDirPath = "Source/freetype-2.5.5";
+			projectRoot = "";
+			targets = (
+				61B337CA5B7E4FE098EE005D /* ALL_BUILD */,
+				0E5F41E3E344483BB4587DA5 /* ZERO_CHECK */,
+				473FC54F04374376BB5AAD46 /* allnatives */,
+				875C622BA54A4E6B98DD93A4 /* dist */,
+				C92B5A3B1B274EBD94BA90D8 /* install */,
+				C77BAB843A1640099185C0B8 /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C67B79F2B2423CB07BA42F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		47F7D2BF9DC74A67828C2DCB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F30E214966F4C8E90FFB01A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		575225B82BA54FAEBC13C98A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7129E8129870476C9F830120 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A776B2FFA2EE4122830FFABC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		D80C05013BCF4A7A8A5E18E0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D9897EF15ED646DAAE18CF8A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		E64250E5F76746B796B99D5F /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FA947483C0C341F398605C1B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeScripts/dist_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ADB05D9BE2F4E168BAE62BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF1EAAD31E84F6F8B3A9962 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */,
+				90A11D95AD4C48C6A90AC9D8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */,
+				1817C0AD594846359368524D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */,
+				906F0E28D75F4A6B80620FBB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */,
+				42635C98A0D84382A5337CBA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				173512BAAAD9452D8D8E85F4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				B82E9E3976C44D9FAFB6F9EF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				3C7109DAEAF248FAA74D68A4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */,
+				8422CD2CA378449983C66EC4 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */,
+				00ED4C5CA08C488A871E321C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				6685609B771E4678B5211626 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */,
+				8B349F749DB14B18AF40040F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */,
+				90D9239E8B394846873C13E5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */,
+				C27B2E20CC2247BB978C913C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */,
+				461476F14D934F26ADF86EA3 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				8453F3B45F8749FF8E7F7175 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */,
+				0B472765E2AC42D48127767E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */,
+				2038C1C1DC464749BED06058 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */,
+				8E56CD14FCD7418190583079 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */,
+				7E41DC975DA246F0BFEC1DC7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */,
+				A081B45FAFF14AD988D1D7DB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */,
+				976B0EFE717E45FE918C463C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				ECB48EF107D04846A0230286 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				B02FCCC097F94479803D3C9F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */,
+				A1AF6180F76D45B0B3B6A9AA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */,
+				BAA99EDA35ED44F0B0EC0CFA /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */,
+				BFDDC1CE2156407FA427D6DC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */,
+				398255DEE0B04303BFE86C0D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				53E0405709B04762A5ED4AD2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */,
+				4F8E0BCB5B4547B4BE7EF54D /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */,
+				C23AE2FEF05045C197D25A48 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */,
+				9B18BE169134407BBBF817A8 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */,
+				84345C6DFAA543058116B029 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */,
+				20BC8611D14F41399A6904B0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */,
+				E15B424B1AF84B72864C0493 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */,
+				436EE6BB3EA64383A38D00CC /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */,
+				D365E014420D41CB92720F69 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */,
+				C672F1F1136746BCB0F04D76 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */,
+				4FF865F08CD2401B93897DEE /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */,
+				14F9F2EB98494FF980E87DBB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */,
+				61CBA79A2DF0485E8C4F0F2C /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */,
+				36CC853AE3A54FA19030A312 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */,
+				276CBC5D3A464E2389C3B430 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */,
+				8B1B17B19B5A45AEA66C3A12 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */,
+				C8065AFA7FB84994B67B7E7E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */,
+				695C37D30ADA456AB7867771 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */,
+				85867BF6D1A54D65B79949FF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */,
+				BF302BBEC90E46158D939AEF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */,
+				5BBFAE0F93494C4AA0EB246A /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */,
+				E6FD287EA92C469B82FD92A6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */,
+				84ABAEC5074341A1A48530D9 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */,
+				CCCF3762EE6548BA84A17635 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */,
+				94B1924065434D5F8C27538E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */,
+				C7DD6D706E354ECE8EFFF6BB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */,
+				EE5C30D3FD6D433E8EED7990 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */,
+				A3B94DEDDF3C4678B5144DE1 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */,
+				49E54ADE229348E886FD4E87 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */,
+				FA14AE72015E455086CD5832 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */,
+				773D34DAB6C641149C8395D2 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */,
+				847311B30B134A5DB5F7026F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */,
+				CBE15D44362B498F8A56BDB6 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */,
+				DEF1D3CA104242CC96BA6B6F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				8292D854DF4F42678E0DCBB5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */,
+				D2BA2F81D228435A9E46E677 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */,
+				425FD7A9A49F4E6B965306AF /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */,
+				B96CCEC213344D95A176CD4E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */,
+				69314510D055420ABD1BEBC7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */,
+				4BCE95371A5F45EAB3F5A2E0 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */,
+				A4DF835E9F7F4D8CA5EA9676 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */,
+				1411BFFC0558457AAFEBDB4F /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */,
+				073D5426BD1E4B6F82BC9EB5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */,
+				03FC98813CA84CC5AD0DBABB /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */,
+				D54121F52DC34A94A0EE9C48 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */,
+				D0F248CC219D4A95A0FF9CE7 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */,
+				ACD761C967644C8CAEAE9B46 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */,
+				D7315D27D83D42C089FCA486 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */,
+				D48C21231FAF4220AF89D233 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */,
+				7EF35DAD7D574EF58236C894 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */,
+				872D37B6630A410DB1392351 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */,
+				F5B9C6B17C584A5DAFA78163 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */,
+				AD476CD8A0E54A3297D20A35 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */,
+				D645F8661A254223AABFB3BD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */,
+				24EF49E227624B82A169BCE5 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */,
+				0A9A5982C627408AB4EECE32 /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */,
+				770A9B27D0664A4B8BC4045E /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */,
+				39C654B33A7B4D0988DFAD2B /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */,
+				10577F2FA421475D8487C9DD /* /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406DA42D3FFA4605BC89033A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B337CA5B7E4FE098EE005D /* ALL_BUILD */;
+			targetProxy = FDD24FD362794C9F987CC7A4 /* PBXContainerItemProxy */;
+		};
+		B123F229476145AFA0BA78F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E5F41E3E344483BB4587DA5 /* ZERO_CHECK */;
+			targetProxy = 4686B99B8CEA4CEBAC773DEE /* PBXContainerItemProxy */;
+		};
+		BE55C983251C4117B099A8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E5F41E3E344483BB4587DA5 /* ZERO_CHECK */;
+			targetProxy = A71402D8D3744FB88EE4374B /* PBXContainerItemProxy */;
+		};
+		CF0F532E0D69452187B44804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E5F41E3E344483BB4587DA5 /* ZERO_CHECK */;
+			targetProxy = 36147447D6624BC7B504F2A8 /* PBXContainerItemProxy */;
+		};
+		D6F41BE7C4554BEA86A42DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61B337CA5B7E4FE098EE005D /* ALL_BUILD */;
+			targetProxy = 4A57D91A01BA47A8B0729D92 /* PBXContainerItemProxy */;
+		};
+		E7B4705B5E064F2386E83EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 473FC54F04374376BB5AAD46 /* allnatives */;
+			targetProxy = 75A90C887EB5404E943355A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018394C1A67841F6A7BA14F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1988AA86C98C40BF8A04246C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3C3872D7E6C14464A234CC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3C67AE51E350402B862878BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		57E44E634ABF49158D95A313 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5AA4542F6D6040D29BBE44BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5D6EEF914AD043EFA5E1B5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		637741BF9B254BFFA2669CF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = Release;
+		};
+		6CCC95EF8C5A416694611895 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6D4180147C544E68897192FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7719712178DE46D798DF8A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		782C4DBEF2FE4F21964E8F04 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C37C719E5EE4900A7A1E4EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7D0DFD00F31D46309FA31362 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7FB39E7A8BAD410284C720B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		88A2B685CA9B45D4B1209146 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8ABA3C49CFD1469ABD33F082 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8C7DE29A7C6A49469105EECF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = MinSizeRel;
+		};
+		9FFD994F3C37495CBF42133C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A58737862E9342FBBC040697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A72170C27520441E8A356071 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AA446F569F35483DB8A067DC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		CCB98493AFFF42F1A1B15623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = Debug;
+		};
+		CEDEDEC8E1D34554A4FCD462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D04017271FAC4A7D95EA6355 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E04897C202834DE49A1DE074 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E9B14F116CC549808DD805D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F11C8B333E434DDC904C3C7E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00CB2C4466894C0E88E3C942 /* Build configuration list for PBXNativeTarget "allnatives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9B14F116CC549808DD805D3 /* Debug */,
+				1988AA86C98C40BF8A04246C /* Release */,
+				782C4DBEF2FE4F21964E8F04 /* MinSizeRel */,
+				F11C8B333E434DDC904C3C7E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1AE2EA649FB14DF2A6DDC2B2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58737862E9342FBBC040697 /* Debug */,
+				5D6EEF914AD043EFA5E1B5C7 /* Release */,
+				57E44E634ABF49158D95A313 /* MinSizeRel */,
+				7D0DFD00F31D46309FA31362 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D608835900D4A76BB7D325B /* Build configuration list for PBXAggregateTarget "dist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C37C719E5EE4900A7A1E4EA /* Debug */,
+				018394C1A67841F6A7BA14F3 /* Release */,
+				88A2B685CA9B45D4B1209146 /* MinSizeRel */,
+				E04897C202834DE49A1DE074 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D004307BE4C435780F62DB0 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C67AE51E350402B862878BB /* Debug */,
+				CEDEDEC8E1D34554A4FCD462 /* Release */,
+				7FB39E7A8BAD410284C720B8 /* MinSizeRel */,
+				6CCC95EF8C5A416694611895 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7456D9C9CFD24C64B1641B5C /* Build configuration list for PBXProject "allnativesv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB98493AFFF42F1A1B15623 /* Debug */,
+				637741BF9B254BFFA2669CF6 /* Release */,
+				8C7DE29A7C6A49469105EECF /* MinSizeRel */,
+				AA446F569F35483DB8A067DC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FCCF55C546443F39E55E5C3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4180147C544E68897192FA /* Debug */,
+				5AA4542F6D6040D29BBE44BB /* Release */,
+				A72170C27520441E8A356071 /* MinSizeRel */,
+				D04017271FAC4A7D95EA6355 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABB997FD3ACD46DA9BBE294C /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C3872D7E6C14464A234CC35 /* Debug */,
+				7719712178DE46D798DF8A87 /* Release */,
+				8ABA3C49CFD1469ABD33F082 /* MinSizeRel */,
+				9FFD994F3C37495CBF42133C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD53162E6B274B9D98F7A99C /* Project object */;
+}

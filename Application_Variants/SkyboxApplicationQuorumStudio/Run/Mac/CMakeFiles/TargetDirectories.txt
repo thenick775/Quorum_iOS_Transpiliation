@@ -1,0 +1,6 @@
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/install.dir
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/package.dir
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/dist.dir
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/allnatives.dir
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/ALL_BUILD.dir
+/Users/nickvancise/Desktop/SkyboxApplicationQuorumStudio/Run/Mac/CMakeFiles/ZERO_CHECK.dir

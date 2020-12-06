@@ -1,0 +1,1561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		136CAA3961814949B21E9116 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9EC982CDE1E547A7A947F5ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				27BB0A73464A44C3BAA238B2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		46226ABD31B645C4A7E8E6C3 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D45C993879A141E1A603A89C /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				109D5530B04345A094B05066 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CA84E1DB23B540CDAC2198B4 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		5F9B3C00D99B4A2F9C4ECF02 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0F961E24AAC648CF82471BEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A1079CC1530E4ED5B699C322 /* CMake Rules */,
+			);
+			dependencies = (
+				CF55D6E5EA7B443D8AB68471 /* PBXTargetDependency */,
+				F743F364C3744B08B361DFD9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		8003F4ABA5BD4F559C75FDCF /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 74EA608786D540B4AF0C595E /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				87182DA350AA4AC8B440C09D /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				055D651D6AF144BFBAEE623E /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		D4EA417604DF40C4ADF8951B /* dist */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1B0E4CBF3D2545B1B23D92DC /* Build configuration list for PBXAggregateTarget "dist" */;
+			buildPhases = (
+				9163AF829CE44444BA8BF89A /* CMake Rules */,
+			);
+			dependencies = (
+				53A56E219B37476D8720183D /* PBXTargetDependency */,
+			);
+			name = dist;
+			productName = dist;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00A21136C2E44C4D900C7793 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXBuildFile; fileRef = EF4DE6E5D55A4413897EE3DD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */; };
+		00D0608049CC42FEA5C83EBC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXBuildFile; fileRef = 4A0991FAD4DB49F9B4D073EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */; };
+		02BEA414111B409EAB19B5F3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXBuildFile; fileRef = 7085D818151A4B6B91C72BD2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */; };
+		0363B26357134C10A75C50F0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXBuildFile; fileRef = DE6C046F34B1414887636661 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */; };
+		070EDD7A51EC4AFC8BA1064D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */ = {isa = PBXBuildFile; fileRef = 2BD2BA5BE7FE4050B01B4075 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */; };
+		0A3EBEE7A0FD41308C45954C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXBuildFile; fileRef = 56B366E2943E44808798AA8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */; };
+		0D3CAE261C294389AEB5108E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXBuildFile; fileRef = 78DF48095C49423482DED57B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */; };
+		0E0C53DDE45D48D1A9AC0B6E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXBuildFile; fileRef = 2E5E466496E741718B0D06E0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */; };
+		10D91E45C90048209B25FD79 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXBuildFile; fileRef = B8F9B121F5F54D8C98A920DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */; };
+		11004C826AFF4B40A8FC7D59 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXBuildFile; fileRef = C8428B0637584A7695645B5E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */; };
+		12ADC94E98924B9B8C3C5ED4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXBuildFile; fileRef = 786370F95FEE4490A50E95FF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */; };
+		1477F0E37BA3457BAEEC2FAE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */ = {isa = PBXBuildFile; fileRef = 06F050CA84854A508ABBE140 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */; };
+		18FC4AEA0A974EABA8162313 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXBuildFile; fileRef = 61A1D9B1D672439C9C50870A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */; };
+		1DBF46AB889C4D3CBDB9A57A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXBuildFile; fileRef = 969E8C9C766941A181D478A3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */; };
+		1F570E9A55644E1FAE6CB0EE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXBuildFile; fileRef = D8B185D355A2403EA707F36D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */; };
+		2492C70C56FD4DA88111486C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */ = {isa = PBXBuildFile; fileRef = F76F1D385E67416E85E355E5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */; };
+		257D7C4A353041E8B539B2F8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXBuildFile; fileRef = D5E01286D6A54D05B359C72E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */; };
+		264DF37EEBEC41B795B96C0A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXBuildFile; fileRef = B370D4E0C4E345DFAFE0BA8F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */; };
+		2BB0A8F8490A4A6DB34FB49F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXBuildFile; fileRef = 13F6CED0C04248F1897EB58E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */; };
+		2C39B978EDB34D6DAD2AEDCC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */ = {isa = PBXBuildFile; fileRef = 8B311622B4DE4DF8A6DB2AD1 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */; };
+		2DDC955D795F438296261123 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXBuildFile; fileRef = 582FF3B945584A8596045496 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */; };
+		31F0A7043C954F9884A9B30A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXBuildFile; fileRef = 9AF83051393F46EF829BE8D2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */; };
+		341F8080271E40A7B22733A7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */ = {isa = PBXBuildFile; fileRef = DFB6DA6F18F64FDA82E5E064 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */; };
+		38C2AD04964E4B05AED70A36 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXBuildFile; fileRef = 1FCF6E3CC8944E46AE3162DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */; };
+		39FDD57F7E5D4C0ABCE61AD6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXBuildFile; fileRef = 37A4E8820F3B4ABBAEF0EAB6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */; };
+		3CBEC86F40484B51BC01D0A9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXBuildFile; fileRef = 9576B458A0B74CBA8212586B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */; };
+		3E7D705834754CADB57A51CA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = A315AAF0D2CB4E1495BD75F5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */; };
+		3F7F9D8C554D412F8595F4F6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXBuildFile; fileRef = 275A65A59C11481D80E708D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */; };
+		439372FCA4F04D8787C58927 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXBuildFile; fileRef = 76771A6868DE41F0B41CA58C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */; };
+		4573AAFE05FD4287A2266F2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXBuildFile; fileRef = 3C3602C6C2364B8FB09AADC3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */; };
+		48EBB75ED54D42B79680A7FD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXBuildFile; fileRef = C49265903537495DA82F0440 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */; };
+		4CB2A6D901B241AD82206EC5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXBuildFile; fileRef = E7ACAF5BEC804B7282C0F6A2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */; };
+		4CE28A7689184BACB456550E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXBuildFile; fileRef = 05A31C58685641D2A838DBE7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */; };
+		4DAA630A5A3B4517AF43F1E7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXBuildFile; fileRef = F870987A6B07468F8FFA74DE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */; };
+		4F728AD5C51E42D3A1E16FA6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXBuildFile; fileRef = 7ED88610DEEC4FFCACDEFCAE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */; };
+		51ED43C5C7FC406AA4B73566 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXBuildFile; fileRef = 27E985CEA456472FB96ADE92 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */; };
+		537DA374B1A74AF9AF8C46A6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXBuildFile; fileRef = CD77E86FED2A45C2B5076D9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */; };
+		5543B298956B47B29AF19D4B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXBuildFile; fileRef = 3C3E597045364AEB9E3B0852 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */; };
+		57F05149214E4014BCABFA8C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXBuildFile; fileRef = 7AB7AE002766468EBC391A5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */; };
+		5A0EACA08C5547F285347394 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXBuildFile; fileRef = 4D26A1D628194D4DA6530BA0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */; };
+		5A7141C839984721863612C9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXBuildFile; fileRef = 4E32B284A6604B1C80274C1B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */; };
+		5B28EBFF8205410684317945 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXBuildFile; fileRef = 95313039FB6B4FF0A3515F3E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */; };
+		64A685D994CD4351A8C7EA7D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXBuildFile; fileRef = 2B2001DC6EB54764BE3165D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */; };
+		66286BE7B4EE4E3BBB5E02D4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */ = {isa = PBXBuildFile; fileRef = C67DBF5B13DB4FFA8FF71F97 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */; };
+		6B9998845C7640E7B679791C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXBuildFile; fileRef = D37BD4B3BFAB4E098E41E989 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */; };
+		6D965D9393A048E38A839881 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXBuildFile; fileRef = F2FCA1A4989B4EBBA62A430A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */; };
+		6E5BA305997A4BF78EE5722D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */ = {isa = PBXBuildFile; fileRef = D475475B0EF5463888C7FE7A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */; };
+		6EC7EEFBFCAF4F5CADA4CE2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXBuildFile; fileRef = B2A4A8E5EF5A42A8992F041B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */; };
+		724A412AF4924817B039BCDE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXBuildFile; fileRef = 6C03DFF43D1246BA9B23EC5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */; };
+		74963B33A6264331B762CBD8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXBuildFile; fileRef = AEB2619A6D4449119B0FCD8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */; };
+		76861BF19B4D4044B229C306 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXBuildFile; fileRef = 8FEC773BBB91404980779D19 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */; };
+		79D5E4338FCB4E40A23DD6BD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXBuildFile; fileRef = 9DFC610DBAE243E79DC63059 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */; };
+		7D09B6F3A2BD4086BC8AB431 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXBuildFile; fileRef = ABA4B96D15B9446AB9F84E66 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */; };
+		82829DB85EC94380B3F9FB74 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXBuildFile; fileRef = 61367D8EFAB64998B1394CCE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */; };
+		84B5E5FE833F41CBAAD615AD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXBuildFile; fileRef = CD9F69363FBA482D997C86FA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */; };
+		86522A249D37471B8CECB892 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXBuildFile; fileRef = 0BB89FB0B9E4415994E041CE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */; };
+		87572676598147768E772BA4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXBuildFile; fileRef = E7FB22EA5F0F4B4DA7AFF5DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */; };
+		87BBA7AC57AD4F20A0025F41 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = F4F40421E8464DD793FA5319 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */; };
+		8E6FBB534593495681EAE317 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXBuildFile; fileRef = 5FB09CECEBF44EEDBA0EB183 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */; };
+		8F69CC2004034638A00B7182 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXBuildFile; fileRef = 3F76ED7A2A144CEA93BE9D04 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */; };
+		9015FAA7991248788B3FFDD0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */ = {isa = PBXBuildFile; fileRef = FBE3C486F20C4B2B96E6BDB4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */; };
+		90409255A1A04AD09C5FAF5F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXBuildFile; fileRef = C8C246AC12E046629145B03E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */; };
+		91669B7473A2498E8B339728 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXBuildFile; fileRef = A1C2F8AF4D7A455EBA54BC88 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */; };
+		922B58B39F0B4E3BB4B08EBF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXBuildFile; fileRef = 3125D26011A047CDB9E41165 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */; };
+		96C3FF85F24740858C23ABC2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXBuildFile; fileRef = B2C0C254EEFE403294F9F2C9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */; };
+		97C02FCB50D34238B517FBD3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXBuildFile; fileRef = C949957CA6D94F478DF71F58 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */; };
+		9A93B05211F84CBBA3AC9963 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXBuildFile; fileRef = FFD039B9576748BE8A783652 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */; };
+		9E83C5F5500D47EA8707BD70 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXBuildFile; fileRef = 307FF230F6A944BDA98AB3EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */; };
+		9EC639A181AE4FDF81E28F70 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXBuildFile; fileRef = 4FCB5BCB72494AD8880CFEB0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */; };
+		9F71A4BA62F147709A94BDDD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */ = {isa = PBXBuildFile; fileRef = 43DE8C435CB44B7BBB359DB8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */; };
+		A194B8D7F78A497A926DEFA6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXBuildFile; fileRef = F6F0B96C2B21401B94448F50 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */; };
+		A1DE6C7373034B74B47C22FA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXBuildFile; fileRef = FC4869306D5D4EF7BD16DE13 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */; };
+		A3057AED8C64405FB6ED65E5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXBuildFile; fileRef = B18D4175AAC44F8AA92AE465 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */; };
+		A3FB289C523D4EE9943D3AB8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXBuildFile; fileRef = 4269516F77874CC3804AEECD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */; };
+		A48DE19357A64F25A8D72AFB /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXBuildFile; fileRef = A92A16AF0E694D75927403C2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */; };
+		A5856B5CCF8B496BA74CED1B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXBuildFile; fileRef = A457610470F740248CC7987B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */; };
+		A7C44D35A5C64FAF8F16099C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXBuildFile; fileRef = 5926A0BF6DE34E2A86C24539 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */; };
+		A9420F72223C413298C5867B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXBuildFile; fileRef = 5930369065EA432091A0783A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */; };
+		AF6EED7809D24302AC65C6F9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXBuildFile; fileRef = E4EE41B585FE4B51B83EEF1A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */; };
+		AFDB86E0AE464E1AB5CDE284 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */ = {isa = PBXBuildFile; fileRef = A659BE9951704FE29C4A6B59 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */; };
+		B0B2180F7EDB4EFD87F1835A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXBuildFile; fileRef = 02F5DAB49CD243669E388D72 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */; };
+		B165871B8FE0460EA13191D6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXBuildFile; fileRef = F0A8A048C0DD4DEC9D2C2373 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */; };
+		B309FCAD2FDE4D33B7A20B5B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXBuildFile; fileRef = 733F2934ECC14A19B62BD363 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */; };
+		B37C1E3C58D14164BAD1AF2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXBuildFile; fileRef = B28B7A25B0244FD4B27FB93A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */; };
+		B47DBB3801CA4C89B09E933E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXBuildFile; fileRef = E7824A3C5B03406ABB99432B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */; };
+		B4C0AD8A0C99476C8A1E391B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXBuildFile; fileRef = 7422AFFE618B4AC28C0FE10E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */; };
+		B5878BD8AAD947D08D032D90 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXBuildFile; fileRef = 61F7E56377864AE49A52B8B9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */; };
+		B61D413E90EE4756B823745F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXBuildFile; fileRef = 3E07A7668C2F4132AF12F4D6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */; };
+		BC7401386BEB4722A669D179 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXBuildFile; fileRef = 3CD4F5E537D9497EA0ECB4EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */; };
+		BD0A70E571CD4C3692D1FB5B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXBuildFile; fileRef = 53CE137252994A55959FC861 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */; };
+		BDDEF3CD23B4405EA0C81A1E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */ = {isa = PBXBuildFile; fileRef = 147D0761E4154D7A84C6AC62 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */; };
+		BF103010465748559C5DBFAF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXBuildFile; fileRef = D77322B04C3649448C0966ED /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */; };
+		BFCA43494D174994970D174A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXBuildFile; fileRef = D00E0CDF40554074AE18D501 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */; };
+		C0C7E030EC9848D596CAE4EF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXBuildFile; fileRef = AA2E0168BD5B49249F7C3834 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */; };
+		C2EF124B3E8A4C8696181A9A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXBuildFile; fileRef = B26700E96A0D4A33AF906B11 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */; };
+		C548B5BEBB8A42B8BE18260F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXBuildFile; fileRef = 1CD16009586B4FCFB186911A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */; };
+		C6C62947E4504A4CBFDDBA04 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXBuildFile; fileRef = 94C66B20CBB14075BCCC0FF2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */; };
+		C7E0D2D7E86F438E80575937 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */ = {isa = PBXBuildFile; fileRef = F166F8B782864BAD8072A076 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */; };
+		C80D634EBFE546E6BF149341 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXBuildFile; fileRef = A046C9AED5CD4AEE9A9BFBCA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */; };
+		C82BF1A4633942598CFFA937 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */ = {isa = PBXBuildFile; fileRef = A06F2A07FD354B39A77FF2E8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */; };
+		C92A98F5BD614394A5ECAF33 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXBuildFile; fileRef = A92DB871975647E0AE229E01 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */; };
+		CD84969ED81B4D6383B63FAA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXBuildFile; fileRef = C683602132CA4CBAA982E1C4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */; };
+		D09D6DCAA70A4ADFA9BC9B05 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F8A14DA9EE1244FD9365CAE6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */; };
+		D257F6358ACC4DD4959CA66C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */ = {isa = PBXBuildFile; fileRef = 4BD245AB72F544779F5AF558 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */; };
+		D4588C7FB7D34D6D8C4DB558 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXBuildFile; fileRef = F46401777D5A499AADAE962D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */; };
+		D4959DD7F44542CBB8EBECDA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXBuildFile; fileRef = A48F962BABBB48CB9A6F6C0E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */; };
+		D776D26D4E9F4136B136A984 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXBuildFile; fileRef = F7446AD87AAB4FD299E01A09 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */; };
+		D8C1090C63D34CB6A6E0F822 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXBuildFile; fileRef = C77CB9FB558C4DCF874243DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */; };
+		DED76F981C0D4F059D62251B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXBuildFile; fileRef = 3062CE31EC6E468D9B1E08F2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */; };
+		E0452D8F26C54DDEBB9CB0E6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXBuildFile; fileRef = 39E2CD6EF0244F1491C29646 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */; };
+		E24DB6326AC048E2BE416DE2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */ = {isa = PBXBuildFile; fileRef = 0134A9F0EF2440A59EFEC5C5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */; };
+		E5C6F4E25D3C43F0A4CA7CAB /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXBuildFile; fileRef = 275C88A167A04CFCB7AE1360 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */; };
+		EF741E2D2827404CA6A94F5B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXBuildFile; fileRef = BB3B60E144894B00800BD00D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */; };
+		EFF0BFA8627E42D9A26602B6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */ = {isa = PBXBuildFile; fileRef = 1B0DF66B9A1943639471239E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */; };
+		F3714E92CD8F4209BCB9B7CE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXBuildFile; fileRef = 211AD8807DD34FD9AA3BC255 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */; };
+		F4FB0D9AE3004C9B8716858B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXBuildFile; fileRef = D5112F9082C146CA8460BC03 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */; };
+		F52D7EB1A11E4381BD85B681 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXBuildFile; fileRef = 83298D756A184AB296404166 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */; };
+		F688704281A2491B875D7952 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXBuildFile; fileRef = A1A1329C0A8047728C375A9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */; };
+		F6B554ED55F44ECC92E92F3A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXBuildFile; fileRef = B726A698FF0F40F181253484 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */; };
+		FA7463878E22436FA474D958 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */ = {isa = PBXBuildFile; fileRef = D62FEA5F59F246329E061389 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */; };
+		FB258901B29041F4905490D5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXBuildFile; fileRef = FA4054145D22439194B47C2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */; };
+		FBA523BD83474DE9B050F61F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXBuildFile; fileRef = 64832BF3D4DE47B697E89FB5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		31D98178BAB4416F9FEBBE52 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CBE85E74A8C147F78CE9C1D8 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F511F27FC6C542AAB856F121 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F6D2CA28B8E44998A6F850B5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		203483B79F40458AAEEB2DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1FCEE18D8543A2882E4D5C;
+			remoteInfo = allnatives;
+		};
+		2AEA3A668C594888B653F17C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9B3C00D99B4A2F9C4ECF02;
+			remoteInfo = ALL_BUILD;
+		};
+		4BAC0924FDB24BF790061601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136CAA3961814949B21E9116;
+			remoteInfo = ZERO_CHECK;
+		};
+		55C3AD16B3B34D40AC9EAF04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9B3C00D99B4A2F9C4ECF02;
+			remoteInfo = ALL_BUILD;
+		};
+		688066CF77624C9E95299571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136CAA3961814949B21E9116;
+			remoteInfo = ZERO_CHECK;
+		};
+		8A12266D3F1940288CD07394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136CAA3961814949B21E9116;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0134A9F0EF2440A59EFEC5C5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAction.m; path = ../ObjectAL/Actions/OALAction.m; sourceTree = SOURCE_ROOT; };
+		02F5DAB49CD243669E388D72 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		05A31C58685641D2A838DBE7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftotval.c; path = src/base/ftotval.c; sourceTree = SOURCE_ROOT; };
+		06F050CA84854A508ABBE140 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALNotifications.h; path = ../ObjectAL/Support/OALNotifications.h; sourceTree = SOURCE_ROOT; };
+		0BB89FB0B9E4415994E041CE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbzip2.c; path = src/bzip2/ftbzip2.c; sourceTree = SOURCE_ROOT; };
+		13F6CED0C04248F1897EB58E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlcdfil.c; path = src/base/ftlcdfil.c; sourceTree = SOURCE_ROOT; };
+		147D0761E4154D7A84C6AC62 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALTools.m; path = ../ObjectAL/Support/OALTools.m; sourceTree = SOURCE_ROOT; };
+		1689FC958432414EAD598ADC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1B0DF66B9A1943639471239E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = IOSVersion.m; path = ../ObjectAL/Support/IOSVersion.m; sourceTree = SOURCE_ROOT; };
+		1CD16009586B4FCFB186911A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psaux.c; path = src/psaux/psaux.c; sourceTree = SOURCE_ROOT; };
+		1FCF6E3CC8944E46AE3162DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrackNotifications.m; path = ../ObjectAL/AudioTrack/OALAudioTrackNotifications.m; sourceTree = SOURCE_ROOT; };
+		211AD8807DD34FD9AA3BC255 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableDictionary+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableDictionary+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		275A65A59C11481D80E708D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = psaux.h; path = include/internal/psaux.h; sourceTree = SOURCE_ROOT; };
+		275C88A167A04CFCB7AE1360 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ObjectALMacros.h; path = ../ObjectAL/Support/ObjectALMacros.h; sourceTree = SOURCE_ROOT; };
+		27E985CEA456472FB96ADE92 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSource.m; path = ../ObjectAL/OpenAL/ALSource.m; sourceTree = SOURCE_ROOT; };
+		2B2001DC6EB54764BE3165D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftxf86.c; path = src/base/ftxf86.c; sourceTree = SOURCE_ROOT; };
+		2BD2BA5BE7FE4050B01B4075 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Matrix4.cpp; path = ../ios/Matrix4.cpp; sourceTree = SOURCE_ROOT; };
+		2E5E466496E741718B0D06E0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmodule.h; path = include/config/ftmodule.h; sourceTree = SOURCE_ROOT; };
+		3062CE31EC6E468D9B1E08F2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftmemory.h; path = include/internal/ftmemory.h; sourceTree = SOURCE_ROOT; };
+		307FF230F6A944BDA98AB3EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = FreeTypeStrategy.c; path = src/base/FreeTypeStrategy.c; sourceTree = SOURCE_ROOT; };
+		3125D26011A047CDB9E41165 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sfnt.h; path = include/internal/sfnt.h; sourceTree = SOURCE_ROOT; };
+		37A4E8820F3B4ABBAEF0EAB6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioFile.m; path = ../ObjectAL/Support/OALAudioFile.m; sourceTree = SOURCE_ROOT; };
+		39E2CD6EF0244F1491C29646 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsystem.c; path = src/base/ftsystem.c; sourceTree = SOURCE_ROOT; };
+		3C3602C6C2364B8FB09AADC3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcache.c; path = src/cache/ftcache.c; sourceTree = SOURCE_ROOT; };
+		3C3E597045364AEB9E3B0852 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = winfnt.c; path = src/winfonts/winfnt.c; sourceTree = SOURCE_ROOT; };
+		3CD4F5E537D9497EA0ECB4EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = sfnt.c; path = src/sfnt/sfnt.c; sourceTree = SOURCE_ROOT; };
+		3E07A7668C2F4132AF12F4D6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftutil.c; path = src/base/ftutil.c; sourceTree = SOURCE_ROOT; };
+		3F76ED7A2A144CEA93BE9D04 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALDevice.m; path = ../ObjectAL/OpenAL/ALDevice.m; sourceTree = SOURCE_ROOT; };
+		4269516F77874CC3804AEECD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftserv.h; path = include/internal/ftserv.h; sourceTree = SOURCE_ROOT; };
+		43DE8C435CB44B7BBB359DB8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IOSGraphics.cpp; path = ../ios/IOSGraphics.cpp; sourceTree = SOURCE_ROOT; };
+		4A0991FAD4DB49F9B4D073EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALListener.m; path = ../ObjectAL/OpenAL/ALListener.m; sourceTree = SOURCE_ROOT; };
+		4BD245AB72F544779F5AF558 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALTools.h; path = ../ObjectAL/Support/OALTools.h; sourceTree = SOURCE_ROOT; };
+		4D26A1D628194D4DA6530BA0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pfr.c; path = src/pfr/pfr.c; sourceTree = SOURCE_ROOT; };
+		4E32B284A6604B1C80274C1B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALActionManager.m; path = ../ObjectAL/Actions/OALActionManager.m; sourceTree = SOURCE_ROOT; };
+		4FCB5BCB72494AD8880CFEB0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OpenALManager.m; path = ../ObjectAL/OpenAL/OpenALManager.m; sourceTree = SOURCE_ROOT; };
+		53CE137252994A55959FC861 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdebug.h; path = include/internal/ftdebug.h; sourceTree = SOURCE_ROOT; };
+		56B366E2943E44808798AA8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTracks.m; path = ../ObjectAL/AudioTrack/OALAudioTracks.m; sourceTree = SOURCE_ROOT; };
+		578EA12802704B46A83E87E8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		582FF3B945584A8596045496 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstream.c; path = src/base/ftstream.c; sourceTree = SOURCE_ROOT; };
+		5926A0BF6DE34E2A86C24539 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftheader.h; path = include/config/ftheader.h; sourceTree = SOURCE_ROOT; };
+		5930369065EA432091A0783A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pcf.c; path = src/pcf/pcf.c; sourceTree = SOURCE_ROOT; };
+		5FB09CECEBF44EEDBA0EB183 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpfr.c; path = src/base/ftpfr.c; sourceTree = SOURCE_ROOT; };
+		61367D8EFAB64998B1394CCE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALCaptureDevice.m; path = ../ObjectAL/OpenAL/ALCaptureDevice.m; sourceTree = SOURCE_ROOT; };
+		61A1D9B1D672439C9C50870A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftgloadr.h; path = include/internal/ftgloadr.h; sourceTree = SOURCE_ROOT; };
+		61F7E56377864AE49A52B8B9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsnames.c; path = src/base/ftsnames.c; sourceTree = SOURCE_ROOT; };
+		64832BF3D4DE47B697E89FB5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftstroke.c; path = src/base/ftstroke.c; sourceTree = SOURCE_ROOT; };
+		6C03DFF43D1246BA9B23EC5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgzip.c; path = src/gzip/ftgzip.c; sourceTree = SOURCE_ROOT; };
+		6E536501C9654D5BA7759964 /* allnatives */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liballnatives.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7085D818151A4B6B91C72BD2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1.c; path = src/type1/type1.c; sourceTree = SOURCE_ROOT; };
+		733F2934ECC14A19B62BD363 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbdf.c; path = src/base/ftbdf.c; sourceTree = SOURCE_ROOT; };
+		7422AFFE618B4AC28C0FE10E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftsynth.c; path = src/base/ftsynth.c; sourceTree = SOURCE_ROOT; };
+		76771A6868DE41F0B41CA58C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftvalid.h; path = include/internal/ftvalid.h; sourceTree = SOURCE_ROOT; };
+		786370F95FEE4490A50E95FF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgasp.c; path = src/base/ftgasp.c; sourceTree = SOURCE_ROOT; };
+		78DF48095C49423482DED57B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = raster.c; path = src/raster/raster.c; sourceTree = SOURCE_ROOT; };
+		7AB7AE002766468EBC391A5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftconfig.h; path = include/config/ftconfig.h; sourceTree = SOURCE_ROOT; };
+		7ED88610DEEC4FFCACDEFCAE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALBuffer.m; path = ../ObjectAL/OpenAL/ALBuffer.m; sourceTree = SOURCE_ROOT; };
+		83298D756A184AB296404166 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = include/internal/internal.h; sourceTree = SOURCE_ROOT; };
+		8B311622B4DE4DF8A6DB2AD1 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = BufferUtils.cpp; path = ../ios/BufferUtils.cpp; sourceTree = SOURCE_ROOT; };
+		8FEC773BBB91404980779D19 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = pshinter.c; path = src/pshinter/pshinter.c; sourceTree = SOURCE_ROOT; };
+		94C66B20CBB14075BCCC0FF2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = autohint.h; path = include/internal/autohint.h; sourceTree = SOURCE_ROOT; };
+		95313039FB6B4FF0A3515F3E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgxval.c; path = src/base/ftgxval.c; sourceTree = SOURCE_ROOT; };
+		9576B458A0B74CBA8212586B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftcalc.h; path = include/internal/ftcalc.h; sourceTree = SOURCE_ROOT; };
+		969E8C9C766941A181D478A3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftdriver.h; path = include/internal/ftdriver.h; sourceTree = SOURCE_ROOT; };
+		9AF83051393F46EF829BE8D2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftlzw.c; path = src/lzw/ftlzw.c; sourceTree = SOURCE_ROOT; };
+		9DFC610DBAE243E79DC63059 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = t1types.h; path = include/internal/t1types.h; sourceTree = SOURCE_ROOT; };
+		A046C9AED5CD4AEE9A9BFBCA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type1cid.c; path = src/cid/type1cid.c; sourceTree = SOURCE_ROOT; };
+		A06F2A07FD354B39A77FF2E8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = gdx2d.c; path = ../ios/gdx2d.c; sourceTree = SOURCE_ROOT; };
+		A1A1329C0A8047728C375A9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = smooth.c; path = src/smooth/smooth.c; sourceTree = SOURCE_ROOT; };
+		A1C2F8AF4D7A455EBA54BC88 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSuspendHandler.m; path = ../ObjectAL/Session/OALSuspendHandler.m; sourceTree = SOURCE_ROOT; };
+		A315AAF0D2CB4E1495BD75F5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = "NSMutableArray+WeakReferences.m"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.m"; sourceTree = SOURCE_ROOT; };
+		A457610470F740248CC7987B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcid.c; path = src/base/ftcid.c; sourceTree = SOURCE_ROOT; };
+		A48F962BABBB48CB9A6F6C0E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbitmap.c; path = src/base/ftbitmap.c; sourceTree = SOURCE_ROOT; };
+		A659BE9951704FE29C4A6B59 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelMap.cpp; path = ../ios/PixelMap.cpp; sourceTree = SOURCE_ROOT; };
+		A92A16AF0E694D75927403C2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALSoundSourcePool.m; path = ../ObjectAL/OpenAL/ALSoundSourcePool.m; sourceTree = SOURCE_ROOT; };
+		A92DB871975647E0AE229E01 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = OALAudioFile.h; path = ../ObjectAL/Support/OALAudioFile.h; sourceTree = SOURCE_ROOT; };
+		AA2E0168BD5B49249F7C3834 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftfstype.c; path = src/base/ftfstype.c; sourceTree = SOURCE_ROOT; };
+		ABA4B96D15B9446AB9F84E66 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = psmodule.c; path = src/psnames/psmodule.c; sourceTree = SOURCE_ROOT; };
+		AEB2619A6D4449119B0FCD8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftglyph.c; path = src/base/ftglyph.c; sourceTree = SOURCE_ROOT; };
+		B18D4175AAC44F8AA92AE465 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftobjs.h; path = include/internal/ftobjs.h; sourceTree = SOURCE_ROOT; };
+		B26700E96A0D4A33AF906B11 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALContext.m; path = ../ObjectAL/OpenAL/ALContext.m; sourceTree = SOURCE_ROOT; };
+		B28B7A25B0244FD4B27FB93A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttrigon.c; path = src/base/fttrigon.c; sourceTree = SOURCE_ROOT; };
+		B2A4A8E5EF5A42A8992F041B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstream.h; path = include/internal/ftstream.h; sourceTree = SOURCE_ROOT; };
+		B2C0C254EEFE403294F9F2C9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = fttrace.h; path = include/internal/fttrace.h; sourceTree = SOURCE_ROOT; };
+		B370D4E0C4E345DFAFE0BA8F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftoutln.c; path = src/base/ftoutln.c; sourceTree = SOURCE_ROOT; };
+		B726A698FF0F40F181253484 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bdf.c; path = src/bdf/bdf.c; sourceTree = SOURCE_ROOT; };
+		B8F9B121F5F54D8C98A920DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftoption.h; path = include/config/ftoption.h; sourceTree = SOURCE_ROOT; };
+		BB3B60E144894B00800BD00D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdbgmem.c; path = src/base/ftdbgmem.c; sourceTree = SOURCE_ROOT; };
+		C49265903537495DA82F0440 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ARCSafe_MemMgmt.h; path = ../ObjectAL/Support/ARCSafe_MemMgmt.h; sourceTree = SOURCE_ROOT; };
+		C67DBF5B13DB4FFA8FF71F97 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = IOSVersion.h; path = ../ObjectAL/Support/IOSVersion.h; sourceTree = SOURCE_ROOT; };
+		C683602132CA4CBAA982E1C4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioActions.m; path = ../ObjectAL/Actions/OALAudioActions.m; sourceTree = SOURCE_ROOT; };
+		C77CB9FB558C4DCF874243DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftrfork.c; path = src/base/ftrfork.c; sourceTree = SOURCE_ROOT; };
+		C8428B0637584A7695645B5E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftmm.c; path = src/base/ftmm.c; sourceTree = SOURCE_ROOT; };
+		C8C246AC12E046629145B03E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SynthesizeSingleton.h; path = ../ObjectAL/Support/SynthesizeSingleton.h; sourceTree = SOURCE_ROOT; };
+		C949957CA6D94F478DF71F58 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioSession.m; path = ../ObjectAL/Session/OALAudioSession.m; sourceTree = SOURCE_ROOT; };
+		CD77E86FED2A45C2B5076D9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = truetype.c; path = src/truetype/truetype.c; sourceTree = SOURCE_ROOT; };
+		CD9F69363FBA482D997C86FA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fttype1.c; path = src/base/fttype1.c; sourceTree = SOURCE_ROOT; };
+		D00E0CDF40554074AE18D501 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftpic.h; path = include/internal/ftpic.h; sourceTree = SOURCE_ROOT; };
+		D37BD4B3BFAB4E098E41E989 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftdebug.c; path = src/base/ftdebug.c; sourceTree = SOURCE_ROOT; };
+		D475475B0EF5463888C7FE7A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = mach_timing.c; path = ../ObjectAL/Support/mach_timing.c; sourceTree = SOURCE_ROOT; };
+		D5112F9082C146CA8460BC03 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tttypes.h; path = include/internal/tttypes.h; sourceTree = SOURCE_ROOT; };
+		D5E01286D6A54D05B359C72E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftwinfnt.c; path = src/base/ftwinfnt.c; sourceTree = SOURCE_ROOT; };
+		D62FEA5F59F246329E061389 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mach_timing.h; path = ../ObjectAL/Support/mach_timing.h; sourceTree = SOURCE_ROOT; };
+		D77322B04C3649448C0966ED /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = type42.c; path = src/type42/type42.c; sourceTree = SOURCE_ROOT; };
+		D8B185D355A2403EA707F36D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALAudioTrack.m; path = ../ObjectAL/AudioTrack/OALAudioTrack.m; sourceTree = SOURCE_ROOT; };
+		DE6C046F34B1414887636661 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftcalc.c; path = src/base/ftcalc.c; sourceTree = SOURCE_ROOT; };
+		DFB6DA6F18F64FDA82E5E064 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALSimpleAudio.m; path = ../ObjectAL/OALSimpleAudio.m; sourceTree = SOURCE_ROOT; };
+		E4EE41B585FE4B51B83EEF1A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftbbox.c; path = src/base/ftbbox.c; sourceTree = SOURCE_ROOT; };
+		E7824A3C5B03406ABB99432B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftinit.c; path = src/base/ftinit.c; sourceTree = SOURCE_ROOT; };
+		E7ACAF5BEC804B7282C0F6A2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALWrapper.m; path = ../ObjectAL/OpenAL/ALWrapper.m; sourceTree = SOURCE_ROOT; };
+		E7FB22EA5F0F4B4DA7AFF5DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftstdlib.h; path = include/config/ftstdlib.h; sourceTree = SOURCE_ROOT; };
+		EF4DE6E5D55A4413897EE3DD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftgloadr.c; path = src/base/ftgloadr.c; sourceTree = SOURCE_ROOT; };
+		F0A8A048C0DD4DEC9D2C2373 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pshints.h; path = include/internal/pshints.h; sourceTree = SOURCE_ROOT; };
+		F166F8B782864BAD8072A076 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = Font.c; path = ../ios/Font.c; sourceTree = SOURCE_ROOT; };
+		F2FCA1A4989B4EBBA62A430A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ftrfork.h; path = include/internal/ftrfork.h; sourceTree = SOURCE_ROOT; };
+		F46401777D5A499AADAE962D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cff.c; path = src/cff/cff.c; sourceTree = SOURCE_ROOT; };
+		F4F40421E8464DD793FA5319 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "NSMutableArray+WeakReferences.h"; path = "../ObjectAL/Support/NSMutableArray+WeakReferences.h"; sourceTree = SOURCE_ROOT; };
+		F6F0B96C2B21401B94448F50 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = autofit.c; path = src/autofit/autofit.c; sourceTree = SOURCE_ROOT; };
+		F7446AD87AAB4FD299E01A09 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftobjs.c; path = src/base/ftobjs.c; sourceTree = SOURCE_ROOT; };
+		F76F1D385E67416E85E355E5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd.cpp; path = ../ios/jpgd.cpp; sourceTree = SOURCE_ROOT; };
+		F870987A6B07468F8FFA74DE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = OALUtilityActions.m; path = ../ObjectAL/Actions/OALUtilityActions.m; sourceTree = SOURCE_ROOT; };
+		F8A14DA9EE1244FD9365CAE6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FA4054145D22439194B47C2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftpatent.c; path = src/base/ftpatent.c; sourceTree = SOURCE_ROOT; };
+		FBE3C486F20C4B2B96E6BDB4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = jpgd_c.cpp; path = ../ios/jpgd_c.cpp; sourceTree = SOURCE_ROOT; };
+		FC4869306D5D4EF7BD16DE13 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ftadvanc.c; path = src/base/ftadvanc.c; sourceTree = SOURCE_ROOT; };
+		FFD039B9576748BE8A783652 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = ALChannelSource.m; path = ../ObjectAL/OpenAL/ALChannelSource.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1511DA5B82084CFC878EF852 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0134A9F0EF2440A59EFEC5C5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */,
+				4E32B284A6604B1C80274C1B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */,
+				C683602132CA4CBAA982E1C4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */,
+				F870987A6B07468F8FFA74DE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */,
+				D8B185D355A2403EA707F36D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				1FCF6E3CC8944E46AE3162DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				56B366E2943E44808798AA8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				DFB6DA6F18F64FDA82E5E064 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */,
+				7ED88610DEEC4FFCACDEFCAE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */,
+				61367D8EFAB64998B1394CCE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				FFD039B9576748BE8A783652 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */,
+				B26700E96A0D4A33AF906B11 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */,
+				3F76ED7A2A144CEA93BE9D04 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */,
+				4A0991FAD4DB49F9B4D073EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */,
+				A92A16AF0E694D75927403C2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				27E985CEA456472FB96ADE92 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */,
+				E7ACAF5BEC804B7282C0F6A2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */,
+				4FCB5BCB72494AD8880CFEB0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */,
+				C949957CA6D94F478DF71F58 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */,
+				A1C2F8AF4D7A455EBA54BC88 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */,
+				1B0DF66B9A1943639471239E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */,
+				A315AAF0D2CB4E1495BD75F5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				211AD8807DD34FD9AA3BC255 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				37A4E8820F3B4ABBAEF0EAB6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */,
+				147D0761E4154D7A84C6AC62 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */,
+				D475475B0EF5463888C7FE7A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */,
+				F6F0B96C2B21401B94448F50 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */,
+				307FF230F6A944BDA98AB3EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				FC4869306D5D4EF7BD16DE13 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */,
+				E4EE41B585FE4B51B83EEF1A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */,
+				733F2934ECC14A19B62BD363 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */,
+				A48F962BABBB48CB9A6F6C0E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */,
+				DE6C046F34B1414887636661 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */,
+				A457610470F740248CC7987B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */,
+				BB3B60E144894B00800BD00D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */,
+				D37BD4B3BFAB4E098E41E989 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */,
+				AA2E0168BD5B49249F7C3834 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */,
+				786370F95FEE4490A50E95FF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */,
+				EF4DE6E5D55A4413897EE3DD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */,
+				AEB2619A6D4449119B0FCD8E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */,
+				95313039FB6B4FF0A3515F3E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */,
+				E7824A3C5B03406ABB99432B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */,
+				13F6CED0C04248F1897EB58E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */,
+				C8428B0637584A7695645B5E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */,
+				F7446AD87AAB4FD299E01A09 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */,
+				05A31C58685641D2A838DBE7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */,
+				B370D4E0C4E345DFAFE0BA8F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */,
+				FA4054145D22439194B47C2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */,
+				5FB09CECEBF44EEDBA0EB183 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */,
+				C77CB9FB558C4DCF874243DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */,
+				61F7E56377864AE49A52B8B9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */,
+				582FF3B945584A8596045496 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */,
+				64832BF3D4DE47B697E89FB5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */,
+				7422AFFE618B4AC28C0FE10E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */,
+				39E2CD6EF0244F1491C29646 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */,
+				B28B7A25B0244FD4B27FB93A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */,
+				CD9F69363FBA482D997C86FA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */,
+				3E07A7668C2F4132AF12F4D6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */,
+				D5E01286D6A54D05B359C72E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */,
+				2B2001DC6EB54764BE3165D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */,
+				B726A698FF0F40F181253484 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */,
+				0BB89FB0B9E4415994E041CE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				3C3602C6C2364B8FB09AADC3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */,
+				F46401777D5A499AADAE962D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */,
+				A046C9AED5CD4AEE9A9BFBCA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */,
+				6C03DFF43D1246BA9B23EC5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */,
+				9AF83051393F46EF829BE8D2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */,
+				5930369065EA432091A0783A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */,
+				4D26A1D628194D4DA6530BA0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */,
+				1CD16009586B4FCFB186911A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */,
+				8FEC773BBB91404980779D19 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */,
+				ABA4B96D15B9446AB9F84E66 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */,
+				78DF48095C49423482DED57B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */,
+				3CD4F5E537D9497EA0ECB4EC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */,
+				A1A1329C0A8047728C375A9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */,
+				CD77E86FED2A45C2B5076D9C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */,
+				7085D818151A4B6B91C72BD2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */,
+				D77322B04C3649448C0966ED /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */,
+				3C3E597045364AEB9E3B0852 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */,
+				8B311622B4DE4DF8A6DB2AD1 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */,
+				F166F8B782864BAD8072A076 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */,
+				43DE8C435CB44B7BBB359DB8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */,
+				2BD2BA5BE7FE4050B01B4075 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */,
+				A659BE9951704FE29C4A6B59 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */,
+				A06F2A07FD354B39A77FF2E8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */,
+				F76F1D385E67416E85E355E5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */,
+				FBE3C486F20C4B2B96E6BDB4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		485803CE39214E9195DC8F98 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		633A7764382245AEBB9E9FBB = {
+			isa = PBXGroup;
+			children = (
+				DBC250049D5F45C4ACD73179 /* dist */,
+				DD6071FB2AD24771B6E2B021 /* allnatives */,
+				E1F1210D41794D4F9D4C2887 /* ALL_BUILD */,
+				9A6485570C814F3B8834EF16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4DBDF76E814C2AA8C0C5EE /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				C49265903537495DA82F0440 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ARCSafe_MemMgmt.h */,
+				C67DBF5B13DB4FFA8FF71F97 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.h */,
+				F4F40421E8464DD793FA5319 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.h */,
+				02F5DAB49CD243669E388D72 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.h */,
+				A92DB871975647E0AE229E01 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.h */,
+				06F050CA84854A508ABBE140 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALNotifications.h */,
+				4BD245AB72F544779F5AF558 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.h */,
+				275C88A167A04CFCB7AE1360 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/ObjectALMacros.h */,
+				C8C246AC12E046629145B03E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/SynthesizeSingleton.h */,
+				D62FEA5F59F246329E061389 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.h */,
+				7AB7AE002766468EBC391A5D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftconfig.h */,
+				5926A0BF6DE34E2A86C24539 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftheader.h */,
+				2E5E466496E741718B0D06E0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftmodule.h */,
+				B8F9B121F5F54D8C98A920DC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftoption.h */,
+				E7FB22EA5F0F4B4DA7AFF5DF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/config/ftstdlib.h */,
+				94C66B20CBB14075BCCC0FF2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/autohint.h */,
+				9576B458A0B74CBA8212586B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftcalc.h */,
+				53CE137252994A55959FC861 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdebug.h */,
+				969E8C9C766941A181D478A3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftdriver.h */,
+				61A1D9B1D672439C9C50870A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftgloadr.h */,
+				3062CE31EC6E468D9B1E08F2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftmemory.h */,
+				B18D4175AAC44F8AA92AE465 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftobjs.h */,
+				D00E0CDF40554074AE18D501 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftpic.h */,
+				F2FCA1A4989B4EBBA62A430A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftrfork.h */,
+				4269516F77874CC3804AEECD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftserv.h */,
+				B2A4A8E5EF5A42A8992F041B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftstream.h */,
+				B2C0C254EEFE403294F9F2C9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/fttrace.h */,
+				76771A6868DE41F0B41CA58C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/ftvalid.h */,
+				83298D756A184AB296404166 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/internal.h */,
+				275A65A59C11481D80E708D9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/psaux.h */,
+				F0A8A048C0DD4DEC9D2C2373 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/pshints.h */,
+				3125D26011A047CDB9E41165 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/sfnt.h */,
+				9DFC610DBAE243E79DC63059 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/t1types.h */,
+				D5112F9082C146CA8460BC03 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include/internal/tttypes.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		9A6485570C814F3B8834EF16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E536501C9654D5BA7759964 /* allnatives */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC250049D5F45C4ACD73179 /* dist */ = {
+			isa = PBXGroup;
+			children = (
+				E564CE2B62404FC48685AA6E /* CMake Rules */,
+				1689FC958432414EAD598ADC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = dist;
+			sourceTree = "<group>";
+		};
+		DD6071FB2AD24771B6E2B021 /* allnatives */ = {
+			isa = PBXGroup;
+			children = (
+				7D4DBDF76E814C2AA8C0C5EE /* Header Files */,
+				1511DA5B82084CFC878EF852 /* Source Files */,
+				F8A14DA9EE1244FD9365CAE6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = allnatives;
+			sourceTree = "<group>";
+		};
+		E1F1210D41794D4F9D4C2887 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				485803CE39214E9195DC8F98 /* CMake Rules */,
+				578EA12802704B46A83E87E8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E564CE2B62404FC48685AA6E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA1FCEE18D8543A2882E4D5C /* allnatives */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A839F3D83484045B34A3CF0 /* Build configuration list for PBXNativeTarget "allnatives" */;
+			buildPhases = (
+				E26934E0040E43CC990299E8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09D08E85264E4F30A364D5AA /* PBXTargetDependency */,
+			);
+			name = allnatives;
+			productName = allnatives;
+			productReference = 6E536501C9654D5BA7759964 /* allnatives */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA1CEC274AE4DCC9C26B690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1220;
+			};
+			buildConfigurationList = CC5208E0A4874BC5A796C9A2 /* Build configuration list for PBXProject "allnativesv2" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				31D98178BAB4416F9FEBBE52 /* Debug */,
+				CBE85E74A8C147F78CE9C1D8 /* Release */,
+				F6D2CA28B8E44998A6F850B5 /* MinSizeRel */,
+				F511F27FC6C542AAB856F121 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 633A7764382245AEBB9E9FBB;
+			projectDirPath = "Source/freetype-2.5.5";
+			projectRoot = "";
+			targets = (
+				5F9B3C00D99B4A2F9C4ECF02 /* ALL_BUILD */,
+				136CAA3961814949B21E9116 /* ZERO_CHECK */,
+				CA1FCEE18D8543A2882E4D5C /* allnatives */,
+				D4EA417604DF40C4ADF8951B /* dist */,
+				46226ABD31B645C4A7E8E6C3 /* install */,
+				8003F4ABA5BD4F559C75FDCF /* package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109D5530B04345A094B05066 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/CMakeScripts/install_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		27BB0A73464A44C3BAA238B2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		31D00B4E8C214A839B6F3B54 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C622AC44F664583B789340D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87182DA350AA4AC8B440C09D /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/CMakeScripts/package_postBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8C6A92C9788745D5A4A2C8FF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9163AF829CE44444BA8BF89A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/CMakeScripts/dist_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A1079CC1530E4ED5B699C322 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac -f /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B6F8602EFD7C4B009CE29779 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F81EEE5CEBB84F5CAE3F9B7B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26934E0040E43CC990299E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E24DB6326AC048E2BE416DE2 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAction.m */,
+				5A7141C839984721863612C9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALActionManager.m */,
+				CD84969ED81B4D6383B63FAA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALAudioActions.m */,
+				4DAA630A5A3B4517AF43F1E7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Actions/OALUtilityActions.m */,
+				1F570E9A55644E1FAE6CB0EE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrack.m */,
+				38C2AD04964E4B05AED70A36 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTrackNotifications.m */,
+				0A3EBEE7A0FD41308C45954C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/AudioTrack/OALAudioTracks.m */,
+				341F8080271E40A7B22733A7 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OALSimpleAudio.m */,
+				4F728AD5C51E42D3A1E16FA6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALBuffer.m */,
+				82829DB85EC94380B3F9FB74 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALCaptureDevice.m */,
+				9A93B05211F84CBBA3AC9963 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALChannelSource.m */,
+				C2EF124B3E8A4C8696181A9A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALContext.m */,
+				8F69CC2004034638A00B7182 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALDevice.m */,
+				00D0608049CC42FEA5C83EBC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALListener.m */,
+				A48DE19357A64F25A8D72AFB /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSoundSourcePool.m */,
+				51ED43C5C7FC406AA4B73566 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALSource.m */,
+				4CB2A6D901B241AD82206EC5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/ALWrapper.m */,
+				9EC639A181AE4FDF81E28F70 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/OpenAL/OpenALManager.m */,
+				97C02FCB50D34238B517FBD3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALAudioSession.m */,
+				91669B7473A2498E8B339728 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Session/OALSuspendHandler.m */,
+				EFF0BFA8627E42D9A26602B6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/IOSVersion.m */,
+				3E7D705834754CADB57A51CA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableArray+WeakReferences.m */,
+				F3714E92CD8F4209BCB9B7CE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/NSMutableDictionary+WeakReferences.m */,
+				39FDD57F7E5D4C0ABCE61AD6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALAudioFile.m */,
+				BDDEF3CD23B4405EA0C81A1E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/OALTools.m */,
+				6E5BA305997A4BF78EE5722D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ObjectAL/Support/mach_timing.c */,
+				A194B8D7F78A497A926DEFA6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit/autofit.c */,
+				9E83C5F5500D47EA8707BD70 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/FreeTypeStrategy.c */,
+				A1DE6C7373034B74B47C22FA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftadvanc.c */,
+				AF6EED7809D24302AC65C6F9 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbbox.c */,
+				B309FCAD2FDE4D33B7A20B5B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbdf.c */,
+				D4959DD7F44542CBB8EBECDA /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftbitmap.c */,
+				0363B26357134C10A75C50F0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcalc.c */,
+				A5856B5CCF8B496BA74CED1B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftcid.c */,
+				EF741E2D2827404CA6A94F5B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdbgmem.c */,
+				6B9998845C7640E7B679791C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftdebug.c */,
+				C0C7E030EC9848D596CAE4EF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftfstype.c */,
+				12ADC94E98924B9B8C3C5ED4 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgasp.c */,
+				00A21136C2E44C4D900C7793 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgloadr.c */,
+				74963B33A6264331B762CBD8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftglyph.c */,
+				5B28EBFF8205410684317945 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftgxval.c */,
+				B47DBB3801CA4C89B09E933E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftinit.c */,
+				2BB0A8F8490A4A6DB34FB49F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftlcdfil.c */,
+				11004C826AFF4B40A8FC7D59 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftmm.c */,
+				D776D26D4E9F4136B136A984 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftobjs.c */,
+				4CE28A7689184BACB456550E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftotval.c */,
+				264DF37EEBEC41B795B96C0A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftoutln.c */,
+				FB258901B29041F4905490D5 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpatent.c */,
+				8E6FBB534593495681EAE317 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftpfr.c */,
+				D8C1090C63D34CB6A6E0F822 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftrfork.c */,
+				B5878BD8AAD947D08D032D90 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsnames.c */,
+				2DDC955D795F438296261123 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstream.c */,
+				FBA523BD83474DE9B050F61F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftstroke.c */,
+				B4C0AD8A0C99476C8A1E391B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsynth.c */,
+				E0452D8F26C54DDEBB9CB0E6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftsystem.c */,
+				B37C1E3C58D14164BAD1AF2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttrigon.c */,
+				84B5E5FE833F41CBAAD615AD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/fttype1.c */,
+				B61D413E90EE4756B823745F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftutil.c */,
+				257D7C4A353041E8B539B2F8 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftwinfnt.c */,
+				64A685D994CD4351A8C7EA7D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/base/ftxf86.c */,
+				F6B554ED55F44ECC92E92F3A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bdf/bdf.c */,
+				86522A249D37471B8CECB892 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/bzip2/ftbzip2.c */,
+				4573AAFE05FD4287A2266F2F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cache/ftcache.c */,
+				D4588C7FB7D34D6D8C4DB558 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cff/cff.c */,
+				C80D634EBFE546E6BF149341 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/cid/type1cid.c */,
+				724A412AF4924817B039BCDE /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/gzip/ftgzip.c */,
+				31F0A7043C954F9884A9B30A /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/lzw/ftlzw.c */,
+				A9420F72223C413298C5867B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pcf/pcf.c */,
+				5A0EACA08C5547F285347394 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pfr/pfr.c */,
+				C548B5BEBB8A42B8BE18260F /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux/psaux.c */,
+				76861BF19B4D4044B229C306 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/pshinter/pshinter.c */,
+				7D09B6F3A2BD4086BC8AB431 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames/psmodule.c */,
+				0D3CAE261C294389AEB5108E /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster/raster.c */,
+				BC7401386BEB4722A669D179 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt/sfnt.c */,
+				F688704281A2491B875D7952 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth/smooth.c */,
+				537DA374B1A74AF9AF8C46A6 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype/truetype.c */,
+				02BEA414111B409EAB19B5F3 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type1/type1.c */,
+				BF103010465748559C5DBFAF /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/type42/type42.c */,
+				5543B298956B47B29AF19D4B /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/winfonts/winfnt.c */,
+				2C39B978EDB34D6DAD2AEDCC /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/BufferUtils.cpp */,
+				C7E0D2D7E86F438E80575937 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Font.c */,
+				9F71A4BA62F147709A94BDDD /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/IOSGraphics.cpp */,
+				070EDD7A51EC4AFC8BA1064D /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/Matrix4.cpp */,
+				AFDB86E0AE464E1AB5CDE284 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/PixelMap.cpp */,
+				C82BF1A4633942598CFFA937 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/gdx2d.c */,
+				2492C70C56FD4DA88111486C /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd.cpp */,
+				9015FAA7991248788B3FFDD0 /* /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/ios/jpgd_c.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		055D651D6AF144BFBAEE623E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9B3C00D99B4A2F9C4ECF02 /* ALL_BUILD */;
+			targetProxy = 55C3AD16B3B34D40AC9EAF04 /* PBXContainerItemProxy */;
+		};
+		09D08E85264E4F30A364D5AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136CAA3961814949B21E9116 /* ZERO_CHECK */;
+			targetProxy = 688066CF77624C9E95299571 /* PBXContainerItemProxy */;
+		};
+		53A56E219B37476D8720183D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136CAA3961814949B21E9116 /* ZERO_CHECK */;
+			targetProxy = 8A12266D3F1940288CD07394 /* PBXContainerItemProxy */;
+		};
+		CA84E1DB23B540CDAC2198B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9B3C00D99B4A2F9C4ECF02 /* ALL_BUILD */;
+			targetProxy = 2AEA3A668C594888B653F17C /* PBXContainerItemProxy */;
+		};
+		CF55D6E5EA7B443D8AB68471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA1FCEE18D8543A2882E4D5C /* allnatives */;
+			targetProxy = 203483B79F40458AAEEB2DC7 /* PBXContainerItemProxy */;
+		};
+		F743F364C3744B08B361DFD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136CAA3961814949B21E9116 /* ZERO_CHECK */;
+			targetProxy = 4BAC0924FDB24BF790061601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01C130E7962D4712B56D64FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = Release;
+		};
+		0AB480B27B5C4991A97F4B33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		21298782C8394357867B3077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		246A0B4182F34595B48B2C35 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2C419A6C5F3D4625AA244435 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = RelWithDebInfo;
+		};
+		43D276C09F774303ACBE3523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4EB596430519461C949B1C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		53672FF04F9A4998926D9EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5415DB930D28440F965A4169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		55A5E26F77F0407382DF32D3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5FDCBB8058A34CC19457755E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6E33BE71400547CFB54ABAD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		73C5585CC35F4F4396F78509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = Debug;
+		};
+		75DD2B168CE2431EA8BA6C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		80D6AAA0BB87450087EB2AF1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		98415B9D29D24CF8A63F5313 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A05912E17D2941559B050D8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B3C2BD80944843F68167D9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BDB00D733D2E4B63B8AF8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",FT2_BUILD_LIBRARY);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/include/freetype2,"/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/include","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/truetype","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/sfnt","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/autofit","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/smooth","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/raster","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psaux","/Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/Source/freetype-2.5.5/src/psnames");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = " ";
+				OTHER_CPLUSPLUSFLAGS = " ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = allnatives;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C2D91544DA07461B9C5C65FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C91570E4ADEE44DCB30F87CC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.2.sdk;
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac/build;
+			};
+			name = MinSizeRel;
+		};
+		CC4913789C1E49CA9F64B88B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D13A524A50B3471F89B2A236 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E0B13902428D4E1EB4F64B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = dist;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E843674BAE4B47D0AE362472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E950D322710C47088E6469B7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EEF71F8FE83E4B81A9A02B1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F4842D3F45A9481F97B3D105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/nickvancise/Desktop/Physics3DApplicationQuorumStudio/Run/Mac;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F961E24AAC648CF82471BEC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FDCBB8058A34CC19457755E /* Debug */,
+				E843674BAE4B47D0AE362472 /* Release */,
+				55A5E26F77F0407382DF32D3 /* MinSizeRel */,
+				CC4913789C1E49CA9F64B88B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1B0E4CBF3D2545B1B23D92DC /* Build configuration list for PBXAggregateTarget "dist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0B13902428D4E1EB4F64B43 /* Debug */,
+				B3C2BD80944843F68167D9BD /* Release */,
+				80D6AAA0BB87450087EB2AF1 /* MinSizeRel */,
+				6E33BE71400547CFB54ABAD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74EA608786D540B4AF0C595E /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53672FF04F9A4998926D9EF5 /* Debug */,
+				75DD2B168CE2431EA8BA6C29 /* Release */,
+				D13A524A50B3471F89B2A236 /* MinSizeRel */,
+				E950D322710C47088E6469B7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7A839F3D83484045B34A3CF0 /* Build configuration list for PBXNativeTarget "allnatives" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB00D733D2E4B63B8AF8A8C /* Debug */,
+				43D276C09F774303ACBE3523 /* Release */,
+				A05912E17D2941559B050D8B /* MinSizeRel */,
+				0AB480B27B5C4991A97F4B33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EC982CDE1E547A7A947F5ED /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5415DB930D28440F965A4169 /* Debug */,
+				4EB596430519461C949B1C5A /* Release */,
+				EEF71F8FE83E4B81A9A02B1E /* MinSizeRel */,
+				98415B9D29D24CF8A63F5313 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC5208E0A4874BC5A796C9A2 /* Build configuration list for PBXProject "allnativesv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C5585CC35F4F4396F78509 /* Debug */,
+				01C130E7962D4712B56D64FD /* Release */,
+				C91570E4ADEE44DCB30F87CC /* MinSizeRel */,
+				2C419A6C5F3D4625AA244435 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D45C993879A141E1A603A89C /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4842D3F45A9481F97B3D105 /* Debug */,
+				21298782C8394357867B3077 /* Release */,
+				246A0B4182F34595B48B2C35 /* MinSizeRel */,
+				C2D91544DA07461B9C5C65FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA1CEC274AE4DCC9C26B690 /* Project object */;
+}

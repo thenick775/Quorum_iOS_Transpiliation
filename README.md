@@ -10,9 +10,9 @@ All build commands were encapsulated in the [RoboVM gradle plugin](https://githu
 
 ### Run Instructions:
 
--Navigate to the Quorum sample project, located at [/Quorum_iOS_Transpiliation/Physics3DApplicationSoundFromFile](https://github.com/thenick775/Quorum_iOS_Transpiliation/tree/main/Physics3DApplicationSoundFromFile)
+-Navigate to the Quorum sample project, located at [/Quorum_iOS_Transpiliation/Application_Variants/Physics3DApplicationSoundFromFile](https://github.com/thenick775/Quorum_iOS_Transpiliation/tree/main/Application_Variants/Physics3DApplicationSoundFromFile)
 
--Navigate to the directory containing the generated iOS project, [/Quorum_iOS_Transpiliation/Physics3DApplicationSoundFromFile/Run/Mac/](https://github.com/thenick775/Quorum_iOS_Transpiliation/tree/main/Physics3DApplicationSoundFromFile/Run/Mac)
+-Navigate to the directory containing the generated iOS project, [/Quorum_iOS_Transpiliation/Application_Variants/Physics3DApplicationSoundFromFile/Run/Mac/](https://github.com/thenick775/Quorum_iOS_Transpiliation/tree/main/Application_Variants/Physics3DApplicationSoundFromFile/Run/Mac)
 
 -Run the gradle command to launch this project on a connected device:
 ````    
