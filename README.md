@@ -3,8 +3,8 @@
 
 #### [Link to wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
 
-The goal of this project was to re-integrate RoboVM into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
-I used the open source fork available from MobiVM to accomplish this.
+The goal of this project was to re-integrate the RoboVM compiler into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
+I used the open source fork available from MobiVM to accomplish this, where this was used to transpile packaged Quorum applications to iOS binaries.
 
 All build commands were encapsulated in the [RoboVM gradle plugin](https://github.com/robovm/robovm-gradle-plugin), allowing access to the RoboVM compiler and exposing the necessary gradle build tasks in the open source fork maintained by MobiVM.
 
