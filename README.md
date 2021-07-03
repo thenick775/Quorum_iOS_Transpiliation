@@ -3,7 +3,7 @@
 
 #### [Link to wiki](https://github.com/thenick775/Quorum_iOS_Transpiliation/wiki)
 
-#### This project is now featured in the Quorum Programming Language [Release Notes](https://quorumlanguage.com/release.html)!
+#### This project is now featured in the Quorum Studio 3.0 and Quorum 9.0 release! Featured release notes [here](https://quorumlanguage.com/release.html)
 
 The goal of this project was to re-integrate the RoboVM compiler into the [Quorum](https://quorumlanguage.com) toolchain, which previously became closed source.
 I used the open source fork available from MobiVM to accomplish this, where this was used to transpile packaged Quorum applications to iOS binaries.
